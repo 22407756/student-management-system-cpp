@@ -1,0 +1,86 @@
+;CircuitMaker Interchangable Symbols
+;-------------
+Resistor
+Resistor:A
+;-------------
+Semi Resistor
+Semi ResistorA
+;-------------
+Var Resistor
+Var ResistorA
+;-------------
+Capacitor
+Polar Cap
+Var Capacitor
+;-------------
+Diode
+Schottky
+Zener Diode
+Varactor
+Varactor:A
+;-------------
+NPN Trans
+NPN Trans:A
+PNP Trans
+PNP Trans:A
+;-------------
+NPN Trans:B
+NPN Trans:C
+PNP Trans:B
+PNP Trans:C
+;-------------
+N-JFET
+N-JFET:A
+P-JFET
+P-JFET:A
+;-------------
+N-IGBT
+N-IGBT:A
+N-IGBT:B
+N-IGBT:C
+P-IGBT
+P-IGBT:A
+P-IGBT:B
+P-IGBT:C
+;-------------
+N-DMOS 3T
+N-DMOS 3T:A
+P-DMOS 3T
+P-DMOS 3T:A
+;-------------
+N-DMOS 4T
+N-DMOS 4T:A
+P-DMOS 4T
+P-DMOS 4T:A
+;-------------
+N-EMOS 3T
+N-EMOS 3T:A
+P-EMOS 3T
+P-EMOS 3T:A
+;-------------
+N-EMOS 4T
+N-EMOS 4T:A
+P-EMOS 4T
+P-EMOS 4T:A
+;-------------
+N-MOSFET 3T
+N-MOSFET 3T:A
+P-MOSFET 3T
+P-MOSFET 3T:A
+;-------------
+N-MOSFET 4T
+N-MOSFET 4T:A
+P-MOSFET 4T
+P-MOSFET 4T:A
+;-------------
+N-MESFET
+N-MESFET:A
+P-MESFET
+P-MESFET:A
+;-------------
+Diac:A
+Diac:B
+;-------------
+Triac:A
+Triac:B
+;-------------

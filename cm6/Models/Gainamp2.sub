@@ -1,0 +1,7 @@
+* GainAmp2~ linking file
+
+*AD Low noise, 90MHz Variable-Gain Amp pkg:DIP8 1,2,3,4,5,6,7,8
+.PARAM XAD603 File:Ad3.lib
+
+*AD Low noise, 90MHz Variable-Gain Amp pkg:DIP8 1,2,3,4,5,6,7,8
+.PARAM XAD603A File:Ad3.lib

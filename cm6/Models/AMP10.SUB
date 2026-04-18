@@ -1,0 +1,4 @@
+* Amp10~ linking file
+
+*CLC Sngl WideBW Variable-Gain Amp pkg:DIP14 1,2,3,4,5,6,7,9,10,12
+.PARAM XCLC522 File:Comlin.lib

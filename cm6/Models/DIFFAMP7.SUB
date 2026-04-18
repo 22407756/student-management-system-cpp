@@ -1,0 +1,10 @@
+* Diff-Amp7~ linking file
+
+*LTC Sngl LoPwr Video Difference Amp pkg:DIP8 1,2,3,4,6,7,8
+.PARAM XLT1187 File:Ltc.lib
+
+*LTC Sngl LoPwr Video Difference Amp pkg:DIP8 1,2,3,4,6,7,8
+.PARAM XLT1189 File:Ltc.lib
+
+*LTC Sngl Video Difference Amp pkg:DIP8 1,2,3,4,6,7,8
+.PARAM XLT1193 File:Ltc.lib

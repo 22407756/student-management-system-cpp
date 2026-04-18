@@ -1,0 +1,7 @@
+* AD626~ linking file
+
+*AD Low Cost, Single Supply, Differential Amp pkg:DIP8 8,1,6,3,7,4,2,5
+.PARAM XAD626 File:Ad3.lib
+
+*AD Low Cost, Single Supply, Differential Amp pkg:DIP8 8,1,6,3,7,4,2,5
+.PARAM XAD626B File:Ad3.lib

@@ -1,0 +1,13 @@
+* AD780~ linking file
+
+*AD 2.5V/3.0V High Precision Reference pkg:DIP8 1,3,4,5,6,8
+.PARAM XAD780 File:Ad3.lib
+
+*AD 2.5V/3.0V High Precision Reference pkg:DIP8 1,3,4,5,6,8
+.PARAM XAD780A File:Ad3.lib
+
+*AD 2.5V/3.0V High Precision Reference pkg:DIP8 1,3,4,5,6,8
+.PARAM XAD780B File:Ad3.lib
+
+*AD 2.5V/3.0V High Precision Reference pkg:DIP8 1,3,4,5,6,8
+.PARAM XAD780S File:Ad3.lib

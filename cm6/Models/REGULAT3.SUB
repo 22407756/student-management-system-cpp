@@ -1,0 +1,20 @@
+*==================================
+*Regulator3 Pin Order: In, Com, Out
+*Copyright (c) 1997 MicroCode Engineering, Inc.
+*All Rights Reserved
+*==================================
+
+*Adjustable Voltage Reg (COM=ADJ) pkg:TO-220 3,1,2
+.PARAM XLM317 File:Mceregs.lib
+
+*5V 100mA Voltage Regulator pkg:TO-92 3,2,1
+.PARAM X78L05 File:Mceregs.lib
+
+*8.2V 100mA Voltage Regulator pkg:TO-92 3,2,1
+.PARAM X78L08 File:Mceregs.lib
+
+*12V 100mA Voltage Regulator pkg:TO-92 3,2,1
+.PARAM X78L12 File:Mceregs.lib
+
+*15V 100mA Voltage Regulator pkg:TO-92 3,2,1
+.PARAM X78L15 File:Mceregs.lib

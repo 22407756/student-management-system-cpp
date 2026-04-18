@@ -1,0 +1,4 @@
+* CFA-Amp8~ linking file
+
+*LTC Sngl 100MHz CFAmp w/DC Gain Control pkg:DIP8 1,2,3,4,5,6,7,8
+.PARAM XLT1228 File:Ltc.lib

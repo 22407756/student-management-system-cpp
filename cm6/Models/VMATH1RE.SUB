@@ -1,0 +1,57 @@
+*==============================================
+*Math Functions with References
+*V-Math1 Ref Pinout: +I -I -O +O
+*Copyright (c) 1997 MicroCode Engineering, Inc.
+*All Rights Reserved
+*==============================================
+
+*Absolute value of Voltage -- pkg:ABS(V)
+.PARAM XABSVR File:Mcemods1.lib
+
+*Arc cosine of Voltage -- pkg:ACOS(V)
+.PARAM XACOSVR File:Mcemods1.lib
+
+*Hyperbolic arc cosine of Voltage -- pkg:ACOSH(V)
+.PARAM XACOSHVR File:Mcemods1.lib
+
+*Arc sine of Voltage -- pkg:ASIN(V)
+.PARAM XASINVR File:Mcemods1.lib
+
+*Hyperbolic arc sine of Voltage -- pkg:ASINH(V)
+.PARAM XASINHVR File:Mcemods1.lib
+
+*Arc tangent of Voltage -- pkg:ATAN(V)
+.PARAM XATANVR File:Mcemods1.lib
+
+*Hyperbolic arc tangent of Voltage -- pkg:ATANH(V)
+.PARAM XATANHVR File:Mcemods1.lib
+
+*Cosine of Voltage -- pkg:COS(V)
+.PARAM XCOSVR File:Mcemods1.lib
+
+*Hyperbolic cosine of Voltage -- pkg:COSH(V)
+.PARAM XCOSHVR File:Mcemods1.lib
+
+*Exponential of Voltage -- pkg:EXP(V)
+.PARAM XEXPVR File:Mcemods1.lib
+
+*Natural logarithm of Voltage -- pkg:LN(V)
+.PARAM XLNVR File:Mcemods1.lib
+
+*Logarithm of Voltage -- pkg:LOG(V)
+.PARAM XLOGVR File:Mcemods1.lib
+
+*Sine of Voltage -- pkg:SIN(V)
+.PARAM XSINVR File:Mcemods1.lib
+
+*Hyperbolic sine of Voltage -- pkg:SINH(V)
+.PARAM XSINHVR File:Mcemods1.lib
+
+*Square root of Voltage -- pkg:SQRT(V)
+.PARAM XSQRTVR File:Mcemods1.lib
+
+*Tangent of Voltage -- pkg:TAN(V)
+.PARAM XTANVR File:Mcemods1.lib
+
+*Unary - of Voltage -- pkg:-(V)
+.PARAM XUNARYVR File:Mcemods1.lib

@@ -1,0 +1,19 @@
+* ADG409~ linking file
+
+*AD Dual 4-Ch Analog Multiplexer pkg:DIP16 4,5,6,7,13,12,11,10,16,1,2,8,9,14,15,16
+.PARAM XADG409 File:Ad3.lib
+
+*AD Dual 4-Ch Analog Multiplexer pkg:DIP16 4,5,6,7,13,12,11,10,16,1,2,8,9,14,15,16
+.PARAM XADG409B File:Ad3.lib
+
+*AD Dual 4-Ch Analog Multiplexer pkg:DIP16 4,5,6,7,13,12,11,10,16,1,2,8,9,14,15,16
+.PARAM XADG409T File:Ad3.lib
+
+*AD Dual 4-Ch Analog Multiplexer pkg:DIP16 4,5,6,7,13,12,11,10,16,1,2,8,9,14,15,16
+.PARAM XADG509F File:Ad3.lib
+
+*AD Dual 4-Ch Analog Multiplexer pkg:DIP16 4,5,6,7,13,12,11,10,16,1,2,8,9,14,15,16
+.PARAM XADG509FB File:Ad3.lib
+
+*AD Dual 4-Ch Analog Multiplexer pkg:DIP16 4,5,6,7,13,12,11,10,16,1,2,8,9,14,15,16
+.PARAM XADG509FT File:Ad3.lib

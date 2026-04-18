@@ -1,0 +1,43 @@
+*XFUSE:Fuse Subcircuit Parameters
+*XFUSE:CURRENT:|Fuse current [0,]|1
+*XFUSE:RESISTANCE:|Inernal resistance [1m,]|1m
+*{CURRENT=1 RESISTANCE=1m}
+*Generic type:fuse pkg:FUSE
+.SUBCKT XFUSE 1 2
+SW1 1 2 3 0 SMOD OFF
+BNLV 3 0 V=(abs(v(1,2)))
+ .MODEL SMOD SW (VT={(CURRENT*RESISTANCE)} RON=1g ROFF={RESISTANCE})
+.ENDS XFUSE
+
+*Fuse alias:XFUSE {CURRENT=1m} pkg:FUSE
+.PARAM A1mA
+
+*Fuse alias:XFUSE {CURRENT=10m} pkg:FUSE
+.PARAM A10mA
+
+*Fuse alias:XFUSE {CURRENT=25m} pkg:FUSE
+.PARAM A25mA
+
+*Fuse alias:XFUSE {CURRENT=50m} pkg:FUSE
+.PARAM A50mA
+
+*Fuse alias:XFUSE {CURRENT=100m} pkg:FUSE
+.PARAM A100mA
+
+*Fuse alias:XFUSE {CURRENT=250m} pkg:FUSE
+.PARAM A250mA
+
+*Fuse alias:XFUSE {CURRENT=500m} pkg:FUSE
+.PARAM A500mA
+
+*Fuse alias:XFUSE {CURRENT=1} pkg:FUSE
+.PARAM A1A
+
+*Fuse alias:XFUSE {CURRENT=2.5} pkg:FUSE
+.PARAM A2.5A
+
+*Fuse alias:XFUSE {CURRENT=5} pkg:FUSE
+.PARAM A5A
+
+*Fuse alias:XFUSE {CURRENT=10} pkg:FUSE
+.PARAM A10A

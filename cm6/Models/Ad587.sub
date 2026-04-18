@@ -1,0 +1,22 @@
+* AD587~ linking file
+
+*AD 10,000V +/-5mV Precision Reference pkg:DIP8 2,4,5,6,8
+.PARAM XAD587 File:Ad3.lib
+
+*AD 10,000V +/-5mV Precision Reference pkg:DIP8 2,4,5,6,8
+.PARAM XAD587J File:Ad3.lib
+
+*AD 10,000V +/-5mV Precision Reference pkg:DIP8 2,4,5,6,8
+.PARAM XAD587K File:Ad3.lib
+
+*AD 10,000V +/-5mV Precision Reference pkg:DIP8 2,4,5,6,8
+.PARAM XAD587L File:Ad3.lib
+
+*AD 10,000V +/-5mV Precision Reference pkg:DIP8 2,4,5,6,8
+.PARAM XAD587S File:Ad3.lib
+
+*AD 10,000V +/-5mV Precision Reference pkg:DIP8 2,4,5,6,8
+.PARAM XAD587T File:Ad3.lib
+
+*AD 10,000V +/-5mV Precision Reference pkg:DIP8 2,4,5,6,8
+.PARAM XAD587U File:Ad3.lib

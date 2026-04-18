@@ -1,0 +1,64 @@
+* REFxx~ linking file
+
+*AD +10V Precision Voltage Reference pkg:DIP8 2,4,5,6
+.PARAM XREF01 File:AD3.lib
+
+*AD +10V Precision Voltage Reference pkg:DIP8 2,4,5,6
+.PARAM XREF01A File:AD3.lib
+
+*AD +10V Precision Voltage Reference pkg:DIP8 2,4,5,6
+.PARAM XREF01C File:AD3.lib
+
+*AD +10V Precision Voltage Reference pkg:DIP8 2,4,5,6
+.PARAM XREF01E File:AD3.lib
+
+*AD +10V Precision Voltage Reference pkg:DIP8 2,4,5,6
+.PARAM XREF01H File:AD3.lib
+
+*AD +5V Precision Voltage-Reference/Temperature-Transducer pkg:DIP8 2,4,5,6
+.PARAM XREF02 File:AD3.lib
+
+*AD +5V Precision Voltage-Reference/Temperature-Transducer pkg:DIP8 2,4,5,6
+.PARAM XREF02A File:AD3.lib
+
+*AD +5V Precision Voltage-Reference/Temperature-Transducer pkg:DIP8 2,4,5,6
+.PARAM XREF02C File:AD3.lib
+
+*AD +5V Precision Voltage-Reference/Temperature-Transducer pkg:DIP8 2,4,5,6
+.PARAM XREF02D File:AD3.lib
+
+*AD +5V Precision Voltage-Reference/Temperature-Transducer pkg:DIP8 2,4,5,6
+.PARAM XREF02E File:AD3.lib
+
+*AD +5V Precision Voltage-Reference/Temperature-Transducer pkg:DIP8 2,4,5,6
+.PARAM XREF02H File:AD3.lib
+
+*AD +5V Precision Voltage Reference pkg:DIP8 2,4,5,6
+.PARAM XREF05 File:AD3.lib
+
+*AD +5V Precision Voltage Reference pkg:DIP8 2,4,5,6
+.PARAM XREF05A File:AD3.lib
+
+*AD +5V Precision Voltage Reference pkg:DIP8 2,4,5,6
+.PARAM XREF05B File:AD3.lib
+
+*AD +10V Precision Voltage Reference pkg:DIP8 2,4,5,6
+.PARAM XREF10 File:AD3.lib
+
+*AD +10V Precision Voltage Reference pkg:DIP8 2,4,5,6
+.PARAM XREF10A File:AD3.lib
+
+*AD +10V Precision Voltage Reference pkg:DIP8 2,4,5,6
+.PARAM XREF10B File:AD3.lib
+
+*AD +2.5V Precision Voltage Reference pkg:DIP8 2,4,5,6
+.PARAM XREF43 File:AD3.lib
+
+*AD +2.5V Precision Voltage Reference pkg:DIP8 2,4,5,6
+.PARAM XREF43B File:AD3.lib
+
+*AD +2.5V Precision Voltage Reference pkg:DIP8 2,4,5,6
+.PARAM XREF43F File:AD3.lib
+
+*AD +2.5V Precision Voltage Reference pkg:DIP8 2,4,5,6
+.PARAM XREF43G File:AD3.lib

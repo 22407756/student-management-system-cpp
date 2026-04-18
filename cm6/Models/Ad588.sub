@@ -1,0 +1,22 @@
+* AD588~ linking file
+
+*AD High Precision Voltage Reference pkg:DIP16 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+.PARAM XAD588 File:Ad3.lib
+
+*AD High Precision Voltage Reference pkg:DIP16 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+.PARAM XAD588A File:Ad3.lib
+
+*AD High Precision Voltage Reference pkg:DIP16 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+.PARAM XAD588B File:Ad3.lib
+
+*AD High Precision Voltage Reference pkg:DIP16 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+.PARAM XAD588J File:Ad3.lib
+
+*AD High Precision Voltage Reference pkg:DIP16 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+.PARAM XAD588K File:Ad3.lib
+
+*AD High Precision Voltage Reference pkg:DIP16 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+.PARAM XAD588S File:Ad3.lib
+
+*AD High Precision Voltage Reference pkg:DIP16 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+.PARAM XAD588T File:Ad3.lib

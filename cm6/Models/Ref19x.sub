@@ -1,0 +1,73 @@
+* REF19x~ linking file
+
+*AD 2.048V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF191 File:AD3.lib
+
+*AD 2.048V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF191E File:AD3.lib
+
+*AD 2.048V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF191F File:AD3.lib
+
+*AD 2.048V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF191G File:AD3.lib
+
+*AD 2.50V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF192 File:AD3.lib
+
+*AD 2.50V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF192E File:AD3.lib
+
+*AD 2.50V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF192F File:AD3.lib
+
+*AD 2.50V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF192G File:AD3.lib
+
+*AD 3.00V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF193 File:AD3.lib
+
+*AD 3.00V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF193G File:AD3.lib
+
+*AD 4.50V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF194 File:AD3.lib
+
+*AD 4.50V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF194E File:AD3.lib
+
+*AD 4.50V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF194F File:AD3.lib
+
+*AD 4.50V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF194G File:AD3.lib
+
+*AD 5.00V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF195 File:AD3.lib
+
+*AD 5.00V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF195E File:AD3.lib
+
+*AD 5.00V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF195F File:AD3.lib
+
+*AD 5.00V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF195G File:AD3.lib
+
+*AD 3.30V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF196 File:AD3.lib
+
+*AD 3.30V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF196G File:AD3.lib
+
+*AD 4.096V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF198 File:AD3.lib
+
+*AD 4.096V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF198E File:AD3.lib
+
+*AD 4.096V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF198F File:AD3.lib
+
+*AD 4.096V Precision icropower, Low drop, Voltage Reference pkg:DIP8 2,3,4,6
+.PARAM XREF198G File:AD3.lib

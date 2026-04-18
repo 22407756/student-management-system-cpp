@@ -1,0 +1,17 @@
+*==============================================
+*Compara6 pinout: +IN, -IN, +V, -V, OUT+, OUT-
+*Copyright (c) 1997 MicroCode Engineering, Inc.
+*All Rights Reserved
+*==============================================
+
+*==============================================
+*MicroCode Engineering
+
+*Sngl Differential Comp pkg:DIP8 2,3,8,4,7,1
+.PARAM XLM111 File:Mcemods2.lib
+
+*Sngl 30V uPwr Differential Comp pkg:DIP8 2,3,8,4,7,1
+.PARAM XLP111 File:Mcemods2.lib
+
+*Sngl 30V uPwr Differential Comp pkg:DIP8 2,3,8,4,7,1
+.PARAM XLP211 File:Mcemods2.lib

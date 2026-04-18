@@ -1,0 +1,6 @@
+*=====================================================
+*Diode AKA pinout: 1=Anode1, 2=CommonCathode, 3=Anode2
+*=====================================================
+
+* 70V 200mA 6ns Si Dual Switching Diode pkg:SOT-23 2,1,3
+.PARAM XBAV70 File:Mcediode.lib

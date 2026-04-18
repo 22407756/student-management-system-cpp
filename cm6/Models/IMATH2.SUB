@@ -1,0 +1,18 @@
+*==============================================
+*Math Operations for Current
+*I-Math2 Pinout:  A B O
+*Copyright (c) 1997 MicroCode Engineering, Inc.
+*All Rights Reserved
+*==============================================
+
+*Add Currents -- pkg:I(A+B)
+.PARAM XADDI File:Mcemods1.lib
+
+*Subtract Currents -- pkg:I(A-B)
+.PARAM XSUBI File:Mcemods1.lib
+
+*Multiply Currents -- pkg:I(A*B)
+.PARAM XMULTI File:Mcemods1.lib
+
+*Divide Currents -- pkg:I(A/B)
+.PARAM XDIVI File:Mcemods1.lib

@@ -1,0 +1,13 @@
+* AD680~ linking file
+
+*AD 2.5V Low power, Low cost Reference pkg:DIP8 2,3,4,6
+.PARAM XAD680 File:Ad3.lib
+
+*AD 2.5V Low power, Low cost Reference pkg:DIP8 2,3,4,6
+.PARAM XAD680A File:Ad3.lib
+
+*AD 2.5V Low power, Low cost Reference pkg:DIP8 2,3,4,6
+.PARAM XAD680J File:Ad3.lib
+
+*AD 2.5V Low power, Low cost Reference pkg:DIP8 2,3,4,6
+.PARAM XAD680JT File:Ad3.lib

@@ -1,0 +1,13 @@
+* AD620~ linking file
+
+*AD Low Cost, Low Power, Instrumentation Amp pkg:DIP8 3,2,7,4,6,5,1,8
+.PARAM XAD620 File:Ad3.lib
+
+*AD Low Cost, Low Power, Instrumentation Amp pkg:DIP8 3,2,7,4,6,5,1,8
+.PARAM XAD620A File:Ad3.lib
+
+*AD Low Cost, Low Power, Instrumentation Amp pkg:DIP8 3,2,7,4,6,5,1,8
+.PARAM XAD620B File:Ad3.lib
+
+*AD Low Cost, Low Power, Instrumentation Amp pkg:DIP8 3,2,7,4,6,5,1,8
+.PARAM XAD620S File:Ad3.lib

@@ -1,0 +1,13 @@
+* AD2205x~ linking file
+
+*AD Single-supply Sensor Interface Amp pkg:DIP8 8,1,6,2,3,4,7,5
+.PARAM XAD22050N File:Ad3.lib
+
+*AD Single-supply Sensor Interface Amp pkg:DIP8 8,1,6,2,3,4,7,5
+.PARAM XAD22050T File:Ad3.lib
+
+*AD Single-supply Sensor Interface Amp pkg:DIP8 8,1,6,2,3,4,7,5
+.PARAM XAD22057N File:Ad3.lib
+
+*AD Single-supply Sensor Interface Amp pkg:DIP8 8,1,6,2,3,4,7,5
+.PARAM XAD22057T File:Ad3.lib

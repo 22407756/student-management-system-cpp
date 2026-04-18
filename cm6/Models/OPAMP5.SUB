@@ -1,0 +1,411 @@
+*==============================================
+*OPAMP5 pinout: +IN, -IN, +V, -V, OUT
+*Copyright (c) 1997 MicroCode Engineering, Inc.
+*All Rights Reserved
+*==============================================
+
+*=================================
+*MicroCode Engineering
+
+*IDEAL Sngl OpAmp OpenLoopGain=100k pkg:DIP8 3,2,7,4,6
+.PARAM XOPAMP5 File:Mcemods2.lib
+
+*Quad WideBW JFET OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLF347 File:Mcemods2.lib
+
+*Sngl WideBW JFET OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLF351 File:Mcemods2.lib
+
+*Dual WideBW JFET OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLF353 File:Mcemods2.lib
+
+*Sngl LoOffset LoDrift JFET OpAmp pkg:DIP8 3,2,8,4,6
+.PARAM XLF411C File:Mcemods2.lib
+
+*Dual LoOffset LoDrift JFET OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLF412C File:Mcemods2.lib
+
+*Sngl GenPurpose OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLM307 File:Mcemods2.lib
+
+*Quad LoPwr SnglSup OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLM324 File:Mcemods2.lib
+
+*Quad 741 OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLM348 File:Mcemods2.lib
+
+*Dual LoPwr, HiGain, SnglSup OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLM358 File:Mcemods2.lib
+
+*Quad LoPwr SnglSup OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLM2902 File:Mcemods2.lib
+
+*Quad SnglSup OpAmp pkg:DIP14 (A:1,6,14,7,5)(B:2,3,14,7,4)(C:13,8,14,7,9)(D:12,11,14,7,10)
+.PARAM XLM3900 File:Mcemods2.lib
+
+*Dual 741 OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XMC1458 File:Mcemods2.lib
+
+*Quad LoPwr SnglSup OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XMC3403 File:Mcemods2.lib
+
+*Sngl GenPurpose OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XUA741 File:Mcemods2.lib
+
+*Dual GenPurpose OpAmp pkg:DIP14 (A:2,1,13,4,12)(B:6,7,9,4,10)
+.PARAM XUA747 File:Mcemods2.lib
+
+*====================================================
+*Linear Technology
+
+*LTC Sngl SnglSup Precision OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1006 File:Ltc.lib
+
+*LTC Sngl HiSpeed OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLM318 File:Ltc.lib
+
+*LTC Sngl HiSpeed OpAmp pkg:SMD8A 3,2,7,4,6
+.PARAM XLM318S8 File:Ltc.lib
+
+*LTC Sngl JFETin LoSupCurrent OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLF155 File:Ltc.lib
+
+*LTC Sngl JFETin LoSupCurrent OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLF155A File:Ltc.lib
+
+*LTC Sngl JFETin HiSpeed OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLF156 File:Ltc.lib
+
+*LTC Sngl JFETin HiSpeed OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLF156A File:Ltc.lib
+
+*LTC Sngl JFETin LoSupCurrent OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLF355 File:Ltc.lib
+
+*LTC Sngl JFETin LoSupCurrent OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLF355A File:Ltc.lib
+
+*LTC Sngl JFETin HiSpeed OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLF356 File:Ltc.lib
+
+*LTC Sngl JFETin HiSpeed OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLF356A File:Ltc.lib
+
+*LTC Dual JFETin Precision OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLF412 File:Ltc.lib
+
+*LTC Dual JFETin Precision OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLF412A File:Ltc.lib
+
+*LTC Sngl GenPurpose OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLM107 File:Ltc.lib
+
+*LTC Sngl HiSpeed OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLM118 File:Ltc.lib
+
+*LTC Sngl Precision OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1001 File:Ltc.lib
+
+*LTC Dual Matched Precision OpAmp pkg:DIP14 (A:4,3,14,12,13)(B:11,10,7,5,6)
+.PARAM XLT1002 File:Ltc.lib
+
+*LTC Sngl Precision OpAmp pkg:SMD8A 3,2,7,4,6
+.PARAM XLT1001S8 File:Ltc.lib
+
+*LTC Sngl Precision OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1001A File:Ltc.lib
+
+*LTC Dual Matched Precision OpAmp pkg:DIP14 (A:4,3,14,12,13)(B:11,10,7,5,6)
+.PARAM XLT1002A File:Ltc.lib
+
+*LTC Sngl SnglSup Precision OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1006 File:Ltc.lib
+
+*LTC Sngl SnglSup Precision OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1006A File:Ltc.lib
+
+*LTC Sngl SnglSup Precision OpAmp pkg:SMD8A 3,2,7,4,6
+.PARAM XLT1006S8 File:Ltc.lib
+
+*LTC Sngl LoNoise HiSpeed Precision OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1007 File:Ltc.lib
+
+*LTC Sngl LoNoise HiSpeed Precision OpAmp pkg:SMD16B 5,4,13,6,12
+.PARAM XLT1007CS File:Ltc.lib
+
+*LTC Sngl LoNoise HiSpeed Precision OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1007A File:Ltc.lib
+
+*LTC Sngl pA uV LoNoise OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1012 File:Ltc.lib
+
+*LTC Dual Matched pA uV LoNoise OpAmp pkg:DIP14 (A:4,3,14,12,13)(B:11,10,7,5,6)
+.PARAM XLT1024 File:Ltc.lib
+
+*LTC Sngl pA uV LoNoise OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1012A File:Ltc.lib
+
+*LTC Dual Matched pA uV LoNoise OpAmp pkg:DIP14 (A:4,3,14,12,13)(B:11,10,7,5,6)
+.PARAM XLT1024A File:Ltc.lib
+
+*LTC Sngl pA uV LoNoise OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1012D File:Ltc.lib
+
+*LTC Sngl pA uV LoNoise OpAmp pkg:SMD8A 3,2,7,4,6
+.PARAM XLT1012S8 File:Ltc.lib
+
+*LTC Dual SnglSup Precision OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLT1013  File:Ltc.lib
+
+*LTC Quad SnglSup Precision OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLT1014 File:Ltc.lib
+
+*LTC Dual SnglSup Precision OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLT1013A File:Ltc.lib
+
+*LTC Quad SnglSup Precision OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLT1014A File:Ltc.lib
+
+*LTC Dual SnglSup Precision OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLT1013D File:Ltc.lib
+
+*LTC Quad SnglSup Precision OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLT1014D File:Ltc.lib
+
+*LTC Sngl HiSpeed Precision JFET OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1022 File:Ltc.lib
+
+*LTC Sngl HiSpeed Precision JFET OpAmp pkg:CAN8 3,2,7,4,6
+.PARAM XLT1022A File:Ltc.lib
+
+*LTC Sngl UltraLoNoise HiSpeed Precision OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1028 File:Ltc.lib
+
+*LTC Sngl UltraLoNoise HiSpeed Precision OpAmp pkg:SMD16B 5,4,13,6,12
+.PARAM XLT1028CS File:Ltc.lib
+
+*LTC Sngl UltraLoNoise HiSpeed Precision OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1028A File:Ltc.lib
+
+*LTC Sngl LoNoise HiSpeed Precision OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1037 File:Ltc.lib
+
+*LTC Sngl LoNoise HiSpeed Precision OpAmp pkg:SMD16B 5,4,13,6,12
+.PARAM XLT1037CS File:Ltc.lib
+
+*LTC Sngl LoNoise HiSpeed Precision OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1037A File:Ltc.lib
+
+*LTC Sngl HiSpeed Precision JFET OpAmp pkg:CAN8 3,2,7,4,6
+.PARAM XLT1055 File:Ltc.lib
+
+*LTC Sngl HiSpeed Precision JFET OpAmp pkg:CAN8 3,2,7,4,6
+.PARAM XLT1055A File:Ltc.lib
+
+*LTC Sngl HiSpeed Precision JFET OpAmp pkg:SMD8A 3,2,7,4,6
+.PARAM XLT1055S8 File:Ltc.lib
+
+*LTC Sngl HiSpeed Precision JFET OpAmp pkg:CAN8 3,2,7,4,6
+.PARAM XLT1056 File:Ltc.lib
+
+*LTC Sngl HiSpeed Precision JFET OpAmp pkg:CAN8 3,2,7,4,6
+.PARAM XLT1056A File:Ltc.lib
+
+*LTC Sngl HiSpeed Precision JFET OpAmp pkg:SMD8A 3,2,7,4,6
+.PARAM XLT1056S8 File:Ltc.lib
+
+*LTC Dual HiSpeed Precision JFET OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLT1057 File:Ltc.lib
+
+*LTC Quad HiSpeed Precision JFET OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLT1058 File:Ltc.lib
+
+*LTC Dual HiSpeed Precision JFET OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLT1057A File:Ltc.lib
+
+*LTC Quad HiSpeed Precision JFET OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLT1058A File:Ltc.lib
+
+*LTC Dual HiSpeed Precision JFET OpAmp pkg:SMD16B (A:5,4,14,6,3)(B:11,12,14,6,13)
+.PARAM XLT1057S File:Ltc.lib
+
+*LTC Dual uPwr SnglSup Precision OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLT1078 File:Ltc.lib
+
+*LTC Quad uPwr SnglSup Precision OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLT1079 File:Ltc.lib
+
+*LTC Sngl uPwr SnglSup Precision OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1077 File:Ltc.lib
+
+*LTC Dual uPwr SnglSup Precision OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLT1078A File:Ltc.lib
+
+*LTC Quad uPwr SnglSup Precision OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLT1079A File:Ltc.lib
+
+*LTC Sngl LoCost LoPwr Precision OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1097 File:Ltc.lib
+
+*LTC Sngl UltraLoNoise LoDisto Audio OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1115 File:Ltc.lib
+
+*LTC Sngl FastSettling JFET OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1122 File:Ltc.lib
+
+*LTC Dual 17uAMax SnglSup Precision OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLT1178 File:Ltc.lib
+
+*LTC Quad 17uAMax SnglSup Precision OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLT1179 File:Ltc.lib
+
+*LTC Dual 17uAMax SnglSup Precision OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLT1178A File:Ltc.lib
+
+*LTC Quad 17uAMax SnglSup Precision OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLT1179A File:Ltc.lib
+
+*LTC Sngl HiSpeed OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT118A File:Ltc.lib
+
+*LTC Sngl HiSpeed OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT318A File:Ltc.lib
+
+*LTC Sngl UltraHiSpeed SnglSup OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1190 File:Ltc.lib
+
+*LTC Sngl UltraHiSpeed SnglSup OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1191 File:Ltc.lib
+
+*LTC Sngl UltraHiSpeed SnglSup OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1192 File:Ltc.lib
+
+*LTC Sngl LoPwr HiSpeed OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1195 File:Ltc.lib
+
+*LTC Sngl LoPwr HiSpeed OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1200 File:Ltc.lib
+
+*LTC Dual 1mA 12MHz 50V/us OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLT1201 File:Ltc.lib
+
+*LTC Quad 1mA 12MHz 50V/us OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLT1202 File:Ltc.lib
+
+*LTC Dual 45MHz 400V/us OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLT1208 File:Ltc.lib
+
+*LTC Quad 45MHz 400V/us OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLT1209 File:Ltc.lib
+
+*LTC Sngl LoPwr 10MHz CurrentFB OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1217 File:Ltc.lib
+
+*LTC Sngl VeryHiSpeed OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1220 File:Ltc.lib
+
+*LTC Sngl VeryHiSpeed OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1221 File:Ltc.lib
+
+*LTC Sngl 100MHz CurrentFB OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1223 File:Ltc.lib
+
+*LTC Sngl VeryHiSpeed OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1224 File:Ltc.lib
+
+*LTC Sngl VeryHiSpeed OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1225 File:Ltc.lib
+
+*LTC Sngl LoNoise VeryHiSpeed OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1226 File:Ltc.lib
+
+*LTC Sngl 140MHz Video CurrentFB OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1227 File:Ltc.lib
+
+*LTC Dual 100MHz CurrentFB Amp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLT1229 File:Ltc.lib
+
+*LTC Quad 100MHz CurrentFB Amp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLT1230 File:Ltc.lib
+
+*LTC Sngl CurrentFB VideoAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1252 File:Ltc.lib
+
+*LTC Dual CurrentFB VideoAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLT1253 File:Ltc.lib
+
+*LTC Quad CurrentFB VideoAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLT1254 File:Ltc.lib
+
+*LTC Dual 130MHz CurrentFB Amp w/Shutdown pkg:DIP14 (A:2,1,12,10,13)(B:6,7,12,10,9)
+.PARAM XLT1259 File:Ltc.lib
+
+*LTC Trpl 130MHz CurrentFB Amp w/Shutdown pkg:DIP16 (A:2,1,14,11,15)(B:7,8,14,11,10)(C:5,4,14,11,12)
+.PARAM XLT1260 File:Ltc.lib
+
+*LTC Sngl 12MHz 400V/us OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1354 File:Ltc.lib
+
+*LTC Dual 12MHz 400V/us OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLT1355 File:Ltc.lib
+
+*LTC Quad 12MHz 400V/us OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLT1356 File:Ltc.lib
+
+*LTC Sngl 25MHz 600V/us OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1357 File:Ltc.lib
+
+*LTC Dual 25MHz 600V/us OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLT1358 File:Ltc.lib
+
+*LTC Quad 25MHz 600V/us OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLT1359 File:Ltc.lib
+
+*LTC Sngl 50MHz 800V/us OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1360 File:Ltc.lib
+
+*LTC Dual 50MHz 800V/us OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLT1361 File:Ltc.lib
+
+*LTC Quad 50MHz 800V/us OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLT1362 File:Ltc.lib
+
+*LTC Sngl 70MHz 1000V/us OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLT1363 File:Ltc.lib
+
+*LTC Dual 70MHz 1000V/us OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLT1364 File:Ltc.lib
+
+*LTC Quad 70MHz 1000V/us OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLT1365 File:Ltc.lib
+
+*LTC Dual uPwr ChopStab SnglSup OpAmp w/intCaps pkg:DIP14 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLTC1047 File:Ltc.lib
+
+*LTC Sngl LoPwr ChopStab SnglSup OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLTC1049 File:Ltc.lib
+
+*LTC Sngl Precision ChopStab OpAmp w/intCaps pkg:DIP8 3,2,7,4,6
+.PARAM XLTC1050 File:Ltc.lib
+
+*LTC Sngl Precision ChopStab OpAmp w/intCaps pkg:DIP8 3,2,7,4,6
+.PARAM XLTC1050A File:Ltc.lib
+
+*LTC Dual Precision ChopStab OpAmp w/intCaps pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.PARAM XLTC1051 File:Ltc.lib
+
+*LTC Sngl ChopStab OpAmp pkg:DIP8 3,2,7,4,6
+.PARAM XLTC1052 File:Ltc.lib
+
+*LTC Sngl ChopStab OpAmp pkg:SMD16B 5,4,13,7,12
+.PARAM XLTC1052CS File:Ltc.lib
+
+*LTC Sngl ChopStab OpAmp pkg:CAN8 3,2,7,4,6
+.PARAM XLTC7652 File:Ltc.lib
+
+*LTC Quad Precision ChopStab OpAmp w/intCaps pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.PARAM XLTC1053 File:Ltc.lib
+
+*LTC Sngl +/-15V ChopStab OpAmp w/intCaps pkg:DIP8 3,2,7,4,6
+.PARAM XLTC1150 File:Ltc.lib
+

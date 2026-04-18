@@ -1,0 +1,22 @@
+* AD581~ linking file
+
+*AD High precision 10V reference pkg:TO-5 2,3,1
+.PARAM XAD581 File:Ad3.lib
+
+*AD High precision 10V reference pkg:TO-5 2,3,1
+.PARAM XAD581J File:Ad3.lib
+
+*AD High precision 10V reference pkg:TO-5 2,3,1
+.PARAM XAD581K File:Ad3.lib
+
+*AD High precision 10V reference pkg:TO-5 2,3,1
+.PARAM XAD581L File:Ad3.lib
+
+*AD High precision 10V reference pkg:TO-5 2,3,1
+.PARAM XAD581S File:Ad3.lib
+
+*AD High precision 10V reference pkg:TO-5 2,3,1
+.PARAM XAD581T File:Ad3.lib
+
+*AD High precision 10V reference pkg:TO-5 2,3,1
+.PARAM XAD581U File:Ad3.lib

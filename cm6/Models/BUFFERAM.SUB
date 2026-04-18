@@ -1,0 +1,54 @@
+*====================================
+*Buffer/Amp Pinouts: In Out +V -V
+*====================================
+
+*====================================
+*Comlinear
+
+*COM Sngl LwPwr WideBW ClosedLoop Buffer pkg:DIP8 4,8,1,5
+.PARAM XCLC109 File:Comlin.lib
+
+*COM Sngl WideBW HiSlewRt ClosedLoop Buffer pkg:DIP8 4,8,1,5
+.PARAM XCLC111 File:Comlin.lib
+
+*====================================
+*Harris Semiconductor
+
+*HAR Sngl WideB HiSlewRt HiIOut Buffer pkg:DIP8 4,8,1,5
+.PARAM XHA5002 File:Harris.lib
+
+*HAR Sngl Video Buffer pkg:DIP8 4,8,1,5
+.PARAM XHA5033 File:Harris.lib
+
+*====================================
+*National Semiconductor
+
+*NS HiSpeed Buffer pkg:DIP8 2,7,6,8
+.PARAM XLM6121/NS File:National.lib
+
+*NS HiSpeed Buffer pkg:DIP8 2,7,6,8
+.PARAM XLM6221/NS File:National.lib
+
+*NS HiSpeed Buffer pkg:DIP8 2,7,6,8
+.PARAM XLM6321/NS File:National.lib
+
+*====================================
+*Elantec
+
+*EL LoPwr 70MHz Buffer Amp pkg:DIP8 2,7,1,4
+.PARAM XEL2001/EL File:Elantec.lib
+
+*EL LoPwr 180MHz Buffer Amp pkg:DIP8 2,7,1,4
+.PARAM XEL2002/EL File:Elantec.lib
+
+*EL LoPwr 100MHz Video LineDriver pkg:DIP8 2,7,1,4
+.PARAM XEL2003/EL File:Elantec.lib
+
+*EL 55MHz 1A Buffer Amp pkg:TO-220-5 4,5,1,2
+.PARAM XEL2008/EL File:Elantec.lib
+
+*EL 90MHz 1A Buffer Amp pkg:TO-220-5 4,5,1,2
+.PARAM XEL2009/EL File:Elantec.lib
+
+*EL pkg:TO-220-5 4,5,1,2
+.PARAM XEL2012/EL File:Elantec.lib

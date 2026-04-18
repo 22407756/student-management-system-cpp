@@ -1,0 +1,4 @@
+* BUF04~ linking file
+
+*AD Closed-Loop High Speed Buffer pkg:DIP8 3,7,4,6
+.PARAM XBUF04 File:Ad3.lib

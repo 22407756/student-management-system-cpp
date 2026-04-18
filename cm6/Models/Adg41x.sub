@@ -1,0 +1,40 @@
+* ADG41x~ linking file
+
+*AD Quad Percision SPST Switches pkg:DIP16 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+.PARAM XADG411 File:Ad3.lib
+
+*AD Quad Percision SPST Switches pkg:DIP16 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+.PARAM XADG411B File:Ad3.lib
+
+*AD Quad Percision SPST Switches pkg:DIP16 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+.PARAM XADG411T File:Ad3.lib
+
+*AD Quad Percision SPST Switches pkg:DIP16 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+.PARAM XADG412 File:Ad3.lib
+
+*AD Quad Percision SPST Switches pkg:DIP16 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+.PARAM XADG412B File:Ad3.lib
+
+*AD Quad Percision SPST Switches pkg:DIP16 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+.PARAM XADG412T File:Ad3.lib
+
+*AD Quad Percision SPST Switches pkg:DIP16 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+.PARAM XADG413 File:Ad3.lib
+
+*AD Quad Percision SPST Switches pkg:DIP16 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+.PARAM XADG413B File:Ad3.lib
+
+*AD Quad Percision SPST Switches pkg:DIP16 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+.PARAM XADG413T File:Ad3.lib
+
+*AD Quad Percision SPST Switches pkg:DIP16 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+.PARAM XADG444 File:Ad3.lib
+
+*AD Quad Percision SPST Switches pkg:DIP16 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+.PARAM XADG444B File:Ad3.lib
+
+*AD Quad Percision SPST Switches pkg:DIP16 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+.PARAM XADG444BS File:Ad3.lib
+
+*AD Quad Percision SPST Switches pkg:DIP16 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+.PARAM XADG444S File:Ad3.lib

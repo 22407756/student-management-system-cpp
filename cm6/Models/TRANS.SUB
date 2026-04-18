@@ -1,0 +1,35 @@
+*XTRANS:Transformer Subcircuit Parameters
+*XTRANS:RATIO:|Turns ratio= Secondary/Primary [1m,]|1
+*XTRANS:RP:|Primary DC resistance [0,]|0.1
+*XTRANS:RS:|Secondary DC resistance[0,]|0.1
+*XTRANS:LEAK:|Leakage inductance[0,]|1u
+*XTRANS:MAG:|Magnetizing inductance[0,]|1u
+*{RATIO=1 RP=0.1 RS=0.1 LEAK=1u MAG=1u}
+*Generic type:transformer
+.SUBCKT XTRANS 1 2 3 4
+VISRC 9 4 DC 0V
+FCTRL 6 2 VISRC {RATIO}
+EVCVS 8 9 5 2 {RATIO}
+RPRI  1 7 {RP}
+RSEC  8 3 {RS}
+LLEAK 7 5 {LEAK}
+LMAGNET 6 5 {MAG}
+.ENDS XTRANS
+
+*alias:XTRANS {RATIO=10}
+.PARAM A1TO10
+
+*alias:XTRANS {RATIO=5}
+.PARAM A1TO5
+
+*alias:XTRANS {RATIO=2}
+.PARAM A1TO2
+
+*alias:XTRANS {RATIO=1}
+.PARAM A1TO1
+
+*alias:XTRANS {RATIO=0.2}
+.PARAM A5TO1
+
+*alias:XTRANS {RATIO=0.1}
+.PARAM A10TO1

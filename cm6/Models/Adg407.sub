@@ -1,0 +1,7 @@
+* ADG407~ linking file
+
+*AD Dual 8-CH Analog Multiplexer pkg:DIP28 19,20,21,22,23,24,25,26,11,10,9,8,7,5,5,4,15,16,17,18,28,2,1,12,27
+.PARAM XADG407 File:Ad3.lib
+
+*AD Dual 8-CH Analog Multiplexer pkg:DIP28 19,20,21,22,23,24,25,26,11,10,9,8,7,5,5,4,15,16,17,18,28,2,1,12,27
+.PARAM XADG407B File:Ad3.lib

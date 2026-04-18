@@ -1,0 +1,7 @@
+*4075 MCE Nodes: A,B,C,Y
+*MCE mixed-mode 3-input OR gate pkg:DIP14 (A:3,4,5,6)(B:1,2,8,9)(C:11,12,13,10)
+.SUBCKT X4075 1 2 3 4
+BNLVs1 5 0 V=V(1) | v(2) | v(3)
+R1 5 4 1
+C1 4 0 .004uF IC=0V
+.ENDS X4075

@@ -1,0 +1,4 @@
+* DualNPN~ linking file
+
+*AD Si Dual Matched NPN 40V 20mA 200MHz pkg:DIP8 1,2,3,6,7,8
+.PARAM XSSM2210 File:AD3.lib

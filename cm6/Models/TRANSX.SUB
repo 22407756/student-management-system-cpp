@@ -1,0 +1,8 @@
+*alias:XTRANS {RATIO=10}
+.PARAM X1to10 File:Trans.sub
+
+*alias:XTRANS {RATIO=5}
+.PARAM X1to5 File:Trans.sub
+
+*alias:XTRANS {RATIO=2}
+.PARAM X1to2 File:Trans.sub

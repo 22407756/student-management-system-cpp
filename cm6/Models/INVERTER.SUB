@@ -1,0 +1,8 @@
+
+*74LS04 MCE Nodes: A,Y
+*MCE mixed-mode inverter pkg:DIP14 (A:1,2)(B:3,4)(C:5,6)(D:9,8)(E:11,10)(F:13,12)
+.SUBCKT X74LS04 5 3
+BNLVs1 4 0 V=~(V(5))
+R1 4 3 1
+C1 3 0 .004uF IC=0V
+.ENDS X74LS04

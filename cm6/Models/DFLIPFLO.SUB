@@ -1,0 +1,10 @@
+*Generic D Flip-Flop MCE Nodes: D,CP,QN,Q
+*MCE mixed-mode D Flip-Flop
+.SUBCKT XDFF 6 5 3 4
+XU1 9 3 4 7400
+XU2 4 7 3 7400
+XU3 6 5 9 7400
+XU4 5 8 7 7400
+XU5 6 8 7404
+.IC V(3)=0V V(4)=4.5V
+.ENDS XDFF

@@ -1,0 +1,49 @@
+*==============================================
+*SCR - pin order: A G K
+*Copyright (c) 1997 MicroCode Engineering, Inc.
+*All Rights Reserved
+*==============================================
+
+*Default SCR pkg:TO-92B 1,2,3
+.PARAM XSCR File:Mcetriac.lib
+
+*300V 8A pkg:TO-220 2,3,1
+.PARAM X2N4171 File:Mcetriac.lib
+
+*30V 1A pkg:TO-92B 1,2,3
+.PARAM X2N5060 File:Mcetriac.lib
+
+*60V 1A pkg:TO-92B 1,2,3
+.PARAM X2N5061 File:Mcetriac.lib
+
+*100V 1A pkg:TO-92B 1,2,3
+.PARAM X2N5062 File:Mcetriac.lib
+
+*200V 1A pkg:TO-92B 1,2,3
+.PARAM X2N5064 File:Mcetriac.lib
+
+*50V 3A pkg:TO-126 2,3,1
+.PARAM X2N6237 File:Mcetriac.lib
+
+*100V 3A pkg:TO-126 2,3,1
+.PARAM X2N6238 File:Mcetriac.lib
+
+*200V 3A pkg:TO-126 2,3,1
+.PARAM X2N6239 File:Mcetriac.lib
+
+*400V 3A pkg:TO-126 2,3,1
+.PARAM X2N6240 File:Mcetriac.lib
+
+*600V 3A pkg:TO-126 2,3,1
+.PARAM X2N6241 File:Mcetriac.lib
+
+*150V 1A pkg:TO-92B 1,2,3
+.PARAM X2N5063  File:Mcetriac.lib
+
+*300V 1A pkg:TO-92B 1,2,3
+.PARAM X2N6564  File:Mcetriac.lib
+
+*400V 1A pkg:TO-92B 1,2,3
+.PARAM X2N6565  File:Mcetriac.lib
+
+

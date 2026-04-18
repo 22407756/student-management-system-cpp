@@ -1,0 +1,9 @@
+*Generic quad 3-state buffer MCE Nodes: I0,I1,I2,I3,O0,O1,O2,O3,OE
+*MCE mixed-mode quad 3-state buffer
+.SUBCKT XQUAD3STA 3 11 4 10 9 8 7 6 5
+XU1 3 5 9 3SBUFF
+XU2 11 5 8 3SBUFF
+XU3 4 5 7 3SBUFF
+XU4 10 5 6 3SBUFF
+.ENDS XQUAD3STA
+

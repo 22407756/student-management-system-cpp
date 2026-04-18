@@ -1,0 +1,11 @@
+*==============================================
+*CDA-5 Pinouts +IN -IN +V -V OUT
+*Copyright (c) 1997 MicroCode Engineering, Inc.
+*All Rights Reserved
+*==============================================
+
+*===============================
+*MicroCode Engineering
+
+*Quad SnglSup OpAmp pkg:DIP14 (A:1,6,14,7,5)(B:2,3,14,7,4)(C:13,8,14,7,9)(D:12,11,14,7,10)
+.PARAM XLM3900 FILE:MCEMODS2.LIB

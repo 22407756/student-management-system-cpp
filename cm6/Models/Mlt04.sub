@@ -1,0 +1,7 @@
+* MLT04~ linking file
+
+*AD 4-CH, 4-Quadrant Analog Multiplier pkg:DIP18 (A:3,4,2,1,5,14)(B:7,6,8,9,5,14)(C:12,13,11,10,5,14)(D:16,15,17,18,5,14)
+.PARAM XMLT04 File:Ad3.lib
+
+*AD 4-CH, 4-Quadrant Analog Multiplier pkg:DIP18 (A:3,4,2,1,5,14)(B:7,6,8,9,5,14)(C:12,13,11,10,5,14)(D:16,15,17,18,5,14)
+.PARAM XMLT04G File:Ad3.lib

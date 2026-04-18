@@ -1,0 +1,26 @@
+
+*BBY31  ZETEX Spice Model        Last revision 18/8/92
+*NOTES: FOR RF OPERATION ADD PACKAGE INDUCTANCE OF 2.5E-9H AND SET
+* RS=0.60 FOR 2V, 0.53 FOR 5V, 0.45 FOR 10V OR 0.39 FOR 20V BIAS.
+.MODEL BBY31 D(RS=0.2082 N=1.095 TT=1.457E-7 CJO=2.736E-11 VJ=2.099 
++ M=1.001 BV=45.12 IBV=0.09244 )
+
+*BBY40  ZETEX Spice Model        Last revision 18/8/92
+*NOTES: FOR RF OPERATION ADD PACKAGE INDUCTANCE OF 2.5E-9H AND SET
+* RS=0.47 FOR 2V, 0.39 FOR 5V, 0.32 FOR 10V OR 0.28 FOR 20V BIAS.
+.MODEL BBY40 D(IS=7.42E-15 RS=0.1259 N=1.058 TT=2.15E-7 CJO=6.439E-11 
++ VJ=2.566 M=1.013 BV=45.12 IBV=0.1232 )
+
+*                          (C)  1992 ZETEX PLC
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Zetex PLC ("Zetex").  They  are  supplied  free of charge by
+*   Zetex for the purpose of research and design and may be used or
+*   copied intact  (including this notice)  for  that purpose only.
+*   All other rights are reserved. The models are believed accurate
+*   but  no condition  or warranty  as to their  merchantability or
+*   fitness for purpose is given and no liability in respect of any
+*   use is accepted by Zetex PLC, its distributors or agents.
+*
+*
+*   Zetex PLC, Fields New Road, Chadderton, Oldham  OL9 8NP  U.K.

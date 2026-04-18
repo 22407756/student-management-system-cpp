@@ -1,0 +1,12 @@
+* Amp8~ linking file
+*==============================================
+*AMP8 pin order: Gnd G10a -IN  V-  V+ +IN G10b Out
+*Copyright (c) 1998 MicroCode Engineering, Inc.
+*All Rights Reserved
+*==============================================
+
+*====================================================
+*Linear Technology
+
+*LTC Sngl Precision uPwr Instrumentation Amp pkg:DIP8 1,2,3,4,5,6,7,8
+.PARAM XLT1101 File:Ltc.lib

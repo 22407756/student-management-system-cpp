@@ -1,0 +1,8 @@
+
+*74LS27 MCE Nodes: A,B,C,Y
+*MCE mixed-mode 3-input NOR gate pkg:DIP14 (A:1,2,13,12)(B:3,4,5,6)(C:9,10,11,8)
+.SUBCKT X74LS27 1 2 3 4
+BNLVs1 5 0 V=~(V(1) | v(2) | v(3))
+R1 5 4 1
+C1 4 0 .004uF IC=0V
+.ENDS X74LS27

@@ -1,0 +1,13 @@
+* GainAmp1~ linking file
+
+*AD Dual, Low noise, Wideband, Variable gain Amp pkg:DIP14 (A:4,16,1,2,3,15,12,14,13)(B:5,9,8,7,6,10,12,11,13)
+.PARAM XAD600 File:Ad3.lib
+
+*AD Dual, Low noise, Wideband, Variable gain Amp pkg:DIP14 (A:4,16,1,2,3,15,12,14,13)(B:5,9,8,7,6,10,12,11,13)
+.PARAM XAD600J File:Ad3.lib
+
+*AD Dual, Low noise, Wideband, Variable gain Amp pkg:DIP14 (A:4,16,1,2,3,15,12,14,13)(B:5,9,8,7,6,10,12,11,13)
+.PARAM XAD602 File:Ad3.lib
+
+*AD Dual, Low noise, Wideband, Variable gain Amp pkg:DIP14 (A:4,16,1,2,3,15,12,14,13)(B:5,9,8,7,6,10,12,11,13)
+.PARAM XAD602J File:Ad3.lib

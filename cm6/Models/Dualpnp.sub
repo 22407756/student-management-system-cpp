@@ -1,0 +1,10 @@
+* DualPNP linking file
+
+*AD Si Dual Matched PNP 500mw 40V 20mA 200MHz pkg:TO99 1,2,3,5,6,7
+.PARAM XMAT02 File:AD3.lib
+
+*AD Si Dual Matched PNP 500mw 36V 20mA 190MHz pkg:TO99 1,2,3,5,6,7
+.PARAM XMAT03 File:AD3.lib
+
+*AD Si Dual Matched PNP 36V 20mA 190MHz pkg:Dip8 1,2,3,6,7,8
+.PARAM XSSM2220 File:Ad3.lib

@@ -1,0 +1,255 @@
+*EL2001 Macromodel 
+* Connections:        +input
+*                       |  output
+*                       |    | +Vsupply
+*                       |    |    | -Vsupply
+*                       |    |    |    |  
+.subckt EL2001/EL       2    7    1    4  
+*
+* Input Stage 
+*
+e1 10 0 2 0 1.0
+r1 10 0 1K  
+rh 10 11 150  
+ch 11 0 9pF    
+rc 11 12 100
+cc 12 0 4pF
+e2 13 0 12 0 1.0
+*
+* Output Stage 
+*
+q1 4 13 14 qp  
+q2 1 13 15 qn 
+q3 1 14 16 qn  
+q4 4 15 19 qp 
+r2 16 7 1 
+r3 19 7 1 
+i1 1 14 0.9mA
+i2 15 4 0.9mA
+*
+* Bias Current
+*
+iin+ 2 0 1uA 
+*
+* Models
+*
+.model qn npn(is=5e-15 bf=150 rb=200 ptf=45 tf=0.1nS)
+.model qp pnp(is=5e-15 bf=150 rb=200 ptf=45 tf=0.1nS)
+*
+.ends
+*EL2002 Macromodel 
+* Connections:        +input
+*                       |  output
+*                       |    | +Vsupply
+*                       |    |    | -Vsupply
+*                       |    |    |    |  
+.subckt EL2002/EL       2    7    1    4  
+*
+* Input Stage 
+*
+e1 10 0 2 0 1.0
+r1 10 0 1K  
+rh 10 11 150  
+ch 11 0 2pF    
+rc 11 12 100
+cc 12 0 3pF
+e2 13 0 12 0 1.0
+*
+* Output Stage 
+*
+q1 4 13 14 qp  
+q2 1 13 15 qn 
+q3 1 14 16 qn  
+q4 4 15 19 qp 
+r2 16 7 1 
+r3 19 7 1 
+i1 1 14 2mA
+i2 15 4 2mA
+*
+* Bias Current
+*
+iin+ 2 0 3uA 
+*
+* Models
+*
+.model qn npn(is=5e-15 bf=150 rb=200 ptf=45 tf=0.1nS)
+.model qp pnp(is=5e-15 bf=150 rb=200 ptf=45 tf=0.1nS)
+*
+.ends
+*EL2003 Macromodel 
+* Connections:        +input
+*                       |  output
+*                       |    | +Vsupply
+*                       |    |    | -Vsupply
+*                       |    |    |    |  
+.subckt EL2003/EL       2    7    1    4  
+*
+* Input Stage 
+*
+e1 10 0 2 0 1.0
+r1 10 0 1K  
+rh 10 11 150  
+ch 11 0 10pF    
+rc 11 12 100
+cc 12 0 3pF
+e2 13 0 12 0 1.0
+*
+* Output Stage 
+*
+q1 4 13 14 qp  
+q2 1 13 15 qn 
+q3 1 14 16 qn  
+q4 4 15 19 qp 
+r2 16 7 5 
+r3 19 7 5 
+c1 14 0 3pF
+c2 15 0 3pF
+i1 1 14 3mA
+i2 15 4 3mA
+*
+* Bias Current
+*
+iin+ 2 0 5uA 
+*
+* Models
+*
+.model qn npn(is=5e-15 bf=150 rb=350 ptf=45 cjc=2pF tf=0.3nS)
+.model qp pnp(is=5e-15 bf=150 rb=350 ptf=45 cjc=2pF tf=0.3nS)
+*
+.ends
+*EL2008 Macromodel 
+* Connections:        +input
+*                       |  output
+*                       |    | +Vsupply
+*                       |    |    | -Vsupply
+*                       |    |    |    |  
+.subckt EL2008/EL       4    2    5    1  
+*
+* Input Stage 
+*
+e1 10 0 4 0 1.0
+r1 10 0 1K  
+rh 10 11 1K  
+ch 11 0 2.65pF    
+rc 11 12 10K
+cc 12 0 0.159pF
+e2 13 0 12 0 1.0
+*
+* Output Stage 
+*
+q1  1 13 14 qp    
+q2  5 13 15 qn 
+q3  5 14 16 qn 15
+q4  1 15 19 qp 15
+r2 16 2 0.4
+r3 19 2 0.4
+c1 14 0 0.6pF
+c2 15 0 0.6pF
+i1 5 14 1.2mA
+i2 15 1 1.2mA    
+*
+* Bias Current
+*
+iin+ 4 0 5uA 
+*
+* Models
+*
+.model qn npn(is=5e-15 bf=1500) 
+.model qp pnp(is=5e-15 bf=1500)
+.ends
+*EL2009 Macromodel 
+* Connections:        +input
+*                       |  output
+*                       |    | +Vsupply
+*                       |    |    | -Vsupply
+*                       |    |    |    |  
+.subckt EL2009/EL       4    2    5    1  
+*
+* Input Stage 
+*
+e1 10 0 4 0 1.0
+r1 10 0 1K  
+rh 10 11 1K  
+ch 11 0 1pF    
+rc 11 12 6.3K
+cc 12 0 0.159pF
+e2 13 0 12 0 1.0
+*
+* Output Stage 
+*
+q1  1 13 14 qp    
+q2  5 13 15 qn 
+q3  5 14 16 qn 10
+q4  1 15 19 qp 10
+r2 16 2 0.2
+r3 19 2 0.2
+c1 14 0 1.7pF
+c2 15 0 1.7pF
+i1 5 14 5mA
+i2 15 1 5mA    
+*
+* Bias Current
+*
+iin+ 4 0 5uA 
+*
+* Models
+*
+.model qn npn(is=5e-15 bf=500) 
+.model qp pnp(is=5e-15 bf=500)
+*
+.ends
+*EL2012 Macromodel 
+* Macromodel 
+* Connections:        +input
+*                       |  output
+*                       |    | +Vsupply
+*                       |    |    | -Vsupply
+*                       |    |    |    |  
+.subckt EL2012/EL       4    2    5    1   
+*
+*Input Stage 
+*
+q1 5 4 10 qn
+q2 13 2 11 qn
+r1 10 12 200
+r2 11 12 200
+i1 12 1 2.6mA
+i2 5 13 1.3mA
+c1 5 13 6pF
+*
+* Output Stage  
+* 
+i3 5 14 3mA
+i4 15 1 3mA
+q3 1 13 14 qp 
+q4 5 13 15 qn
+q5 5 14 16 qn
+q6 1 15 17 qp 
+r3 16 2 0.1 
+r4 2 17 0.1
+*
+* Power Supply Current
+*
+ips 5 1 5mA
+*
+* Models 
+*
+.model qn npn(is=800e-18 bf=500 tf=0.2nS ptf=45 rb=250)
+.model qp pnp(is=800e-18 bf=500 tf=0.2nS ptf=45 rb=250)
+.ends
+e1 out vss table {(v(inp)-v(inm))*5000} = (0,0) (3.2,3.2)
+Rout out vss 10meg
+Rinp inp vss 10meg
+Rinm inm vss 10meg
+.ends comp1
+e1 out vss table {(v(inp)-v(inm))*5000} = (0,0) (3.2,3.2)
+Rout out vss 10meg
+Rinp inp vss 10meg
+Rinm inm vss 10meg
+.ends comp1
+e1 out vss table {(v(inp)-v(inm))*5000} = (0,0) (3.2,3.2)
+Rout out vss 10meg
+Rinp inp vss 10meg
+Rinm inm vss 10meg
+.ends comp1
+

@@ -1,0 +1,14 @@
+*==============================================
+*Compara5 pinout: +IN, -IN, +V, -V, OUT
+*Copyright (c) 1997 MicroCode Engineering, Inc.
+*All Rights Reserved
+*==============================================
+
+*==============================================
+*MicroCode Engineering
+
+*IDEAL Voltage Comparator using Switches pkg:DIP8 3,2,7,4,6
+.PARAM XSWCOMP File:Mcemods2.LIB
+
+*Quad SnglSup pkg:DIP14 (A:5,4,3,12,2)(B:7,6,3,12,1)(C:9,8,3,12,14)(D:11,10,3,12,13)
+.PARAM XLM339 File:Mcemods2.LIB

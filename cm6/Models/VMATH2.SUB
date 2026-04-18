@@ -1,0 +1,18 @@
+*==============================================
+*Math Operations for Voltage
+*V-Math2 Pinout:  A B O
+*Copyright (c) 1997 MicroCode Engineering, Inc.
+*All Rights Reserved
+*==============================================
+
+*Add Voltages -- pkg:V(A+B)
+.PARAM XADDV File:Mcemods1.lib
+
+*Subrtact Voltages -- pkg:V(A-B)
+.PARAM XSUBV File:Mcemods1.lib
+
+*Multiply Voltages -- pkg:V(A*B)
+.PARAM XMULTV File:Mcemods1.lib
+
+*Divide Voltages -- pkg:V(A/B)
+.PARAM XDIVV File:Mcemods1.lib

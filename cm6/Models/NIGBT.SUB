@@ -1,0 +1,50 @@
+*==============================================
+*IGBT Pinout: 1=C, 2=G, 3=E
+*Copyright (c) 1997 MicroCode Engineering, Inc.
+*All Rights Reserved
+*==============================================
+
+*600V 19A 16.8ns pkg:TO-220 2,1,3
+.PARAM XIRGBC20S File:Mceigbts.lib
+
+*600V 34A 22.4ns pkg:TO-220 2,1,3
+.PARAM XIRGBC30S File:Mceigbts.lib
+
+*600V 50A 27.2ns pkg:TO-220 2,1,3
+.PARAM XIRGBC40S File:Mceigbts.lib
+
+*600V 16A 15.4ns pkg:TO-220 2,1,3
+.PARAM XIRGBC20F File:Mceigbts.lib
+
+*600V 31A 21.4ns pkg:TO-220 2,1,3
+.PARAM XIRGBC30F File:Mceigbts.lib
+
+*600V 49A 26.9ns pkg:TO-220 2,1,3
+.PARAM XIRGBC40F File:Mceigbts.lib
+
+*900V  9A 11.5ns pkg:TO-220 2,1,3
+.PARAM XIRGBF20F File:Mceigbts.lib
+
+*900V 20A 17.2ns pkg:TO-220 2,1,3
+.PARAM XIRGBF30F File:Mceigbts.lib
+
+*1200V 50A 27.2ns pkg:TO-247 2,1,3
+.PARAM XIRGBH50F File:Mceigbts.lib
+
+*500V 14A 14.4ns pkg:TO-220 2,1,3
+.PARAM XIRGB420U File:Mceigbts.lib
+
+*500V 25A 19.2ns pkg:TO-220 2,1,3
+.PARAM XIRGB430U File:Mceigbts.lib
+
+*500V 40A 24.3ns pkg:TO-220 2,1,3
+.PARAM XIRGB440U File:Mceigbts.lib
+
+*600V 13A 13.8ns pkg:TO-220 2,1,3
+.PARAM XIRGBC20U File:Mceigbts.lib
+
+*600V 23A 18.4ns pkg:TO-220 2,1,3
+.PARAM XIRGBC30U File:Mceigbts.lib
+
+*600V  40A  24.3ns pkg:TO-220 2,1,3
+.PARAM XIRGBC40U File:Mceigbts.lib

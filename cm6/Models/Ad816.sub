@@ -1,0 +1,4 @@
+* AD816~ linking file
+
+*AD Dual 500mA Differentail Drive and Low noise amplifier pkg:VR-15 (A:3,2,1,4,5,6,8,7)(B:12,13,14,11,10,9,8,7)
+.PARAM XAD816an File:Ad3.lib

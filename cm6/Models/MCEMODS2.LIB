@@ -1,0 +1,758 @@
+*==============================================
+*Misc. Models and Subcircuits
+*Copyright (c) 1997 MicroCode Engineering, Inc.
+*All Rights Reserved
+*==============================================
+
+*===============================
+*CDA-5 Pinouts +IN -IN +V -V OUT
+*===============================
+
+*====================================================
+*LM3900 MCE-DM 2-22-95
+*Quad SnglSup OpAmp pkg:DIP14 (A:1,6,14,7,5)(B:2,3,14,7,4)(C:13,8,14,7,9)(D:12,11,14,7,10)
+.SUBCKT LM3900 4 3 7 10 9
+Is1 9 10 1.3mA
+Is2 7 5 200uA
+Q1 7 5 9 NMOD
+Q2 6 3 10 NMOD
+Q3 3 4 10 NMOD
+Q4 8 6 5 PMOD
+Q5 10 6 8 PMOD
+D1 4 0 DMOD
+C1 10 6 0.01uF
+.MODEL DMOD D(IS=800E-18)
+.MODEL PMOD PNP(IS=800E-18 BF=250)
+.MODEL NMOD NPN(IS=800E-18 BF=250)
+.ENDS LM3900
+
+*==============================================
+*OPAMP5 pinout: +IN, -IN, +V, -V, OUT
+*==============================================
+
+*OPAMP5
+*IDEAL Sngl OpAmp OpenLoopGain=100k pkg:DIP8 3,2,7,4,6
+.SUBCKT OPAMP5 1 2 3 4 5
+RIN 1 2 1G
+EGAIN 5 0 1 2 1E5
+R1 3 4 1k
+.ENDS OPAMP5
+
+*====================================================
+*LF347
+*Quad WideBW JFET OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.SUBCKT LF347 1 2 3 4 5
+  C1   11 12 3.498E-12
+  C2    6  7 15E-12
+  DC    5 53 DX
+  DE   54  5 DX
+  DLP  90 91 DX
+  DLN  92 90 DX
+  DP    4  3 DX
+  BGND 99  0 V=V(3)*.5 + V(4)*.5
+  BB    7 99 I=I(VB)*14.15E6 - I(VC)*10E6 + I(VE)*10E6 +
++              I(VLP)*10E6 - I(VLN)*10E6
+  GA    6  0 11 12 282.8E-6
+  GCM   0  6 10 99 1.59E-9
+  ISS   3 10 DC 195.0E-6
+  HLIM 90  0 VLIM 1K
+  J1   11  2 10 JX
+  J2   12  1 10 JX
+  R2    6  9 100E3
+  RD1   4 11 3.536E3
+  RD2   4 12 3.536E3
+  RO1   8  5 50
+  RO2   7 99 25
+  RP    3  4 15E3
+  RSS  10 99 1.026E6
+  VB    9  0 DC 0
+  VC    3 53 DC 2.2
+  VE   54  4 DC 2.2
+  VLIM  7  8 DC 0
+  VLP  91  0 DC 25
+  VLN   0 92 DC 25
+.MODEL DX D(IS=800E-18)
+.MODEL JX PJF(IS=25E-12 BETA=235.1E-6 VTO=-1)
+.ENDS LF347
+
+*====================================================
+*LF351
+*Sngl WideBW JFET OpAmp pkg:DIP8 3,2,7,4,6. pkg:CAN8 3,2,7,4,6.
+.SUBCKT LF351 1 2 3 4 5
+  C1   11 12 3.498E-12
+  C2    6  7 15E-12
+  DC    5 53 DX
+  DE   54  5 DX
+  DLP  90 91 DX
+  DLN  92 90 DX
+  DP    4  3 DX
+  BGND 99  0 V=V(3)*.5 + V(4)*.5
+  BB    7 99 I=I(VB)*28.29E6 - I(VC)*30E6 + I(VE)*30E6 +
++              I(VLP)*30E6 - I(VLN)*30E6
+  GA    6  0 11 12 282.8E-6
+  GCM   0  6 10 99 1.59E-9
+  ISS   3 10 DC 195E-6
+  HLIM 90  0 VLIM 1K
+  J1   11  2 10 JX
+  J2   12  1 10 JX
+  R2    6  9 100E3
+  RD1   4 11 3.536E3
+  RD2   4 12 3.536E3
+  RO1   8  5 50
+  RO2   7 99 25
+  RP    3  4 15E3
+  RSS  10 99 1.026E6
+  VB    9  0 DC 0
+  VC    3 53 DC 2.2
+  VE   54  4 DC 2.2
+  VLIM  7  8 DC 0
+  VLP  91  0 DC 30
+  VLN   0 92 DC 30
+.MODEL DX D(IS=800E-18)
+.MODEL JX PJF(IS=12.5E-12 BETA=250.1E-6 VTO=-1)
+.ENDS LF351
+
+*====================================================
+*LF353
+*Dual WideBW JFET OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.SUBCKT LF353 1 2 3 4 5
+  C1   11 12 3.498E-12
+  C2    6  7 15E-12
+  DC    5 53 DX
+  DE   54  5 DX
+  DLP  90 91 DX
+  DLN  92 90 DX
+  DP    4  3 DX
+  BGND 99  0 V=V(3)*.5 + V(4)*.5
+  BB    7 99 I=I(VB)*28.29E6 - I(VC)*30E6 + I(VE)*30E6 +
++              I(VLP)*30E6 - I(VLN)*30E6
+  GA    6  0 11 12 282.8E-6
+  GCM   0  6 10 99 1.59E-9
+  ISS   3 10 DC 195E-6
+  HLIM 90  0 VLIM 1K
+  J1   11  2 10 JX
+  J2   12  1 10 JX
+  R2    6  9 100E3
+  RD1   4 11 3.536E3
+  RD2   4 12 3.536E3
+  RO1   8  5 50
+  RO2   7 99 11.62
+  RP    3  4 15E3
+  RSS  10 99 1.026E6
+  VB    9  0 DC 0
+  VC    3 53 DC 2.2
+  VE   54  4 DC 2.2
+  VLIM  7  8 DC 0
+  VLP  91  0 DC 30
+  VLN   0 92 DC 30
+.MODEL DX D(IS=800E-18)
+.MODEL JX PJF(IS=12.5E-12 BETA=250.1E-6 VTO=-1)
+.ENDS LF353
+
+*====================================================
+*LF411C
+*Sngl LoOffset LoDrift JFET OpAmp pkg:DIP8 3,2,8,4,6. pkg:CAN8 3,2,8,4,6.
+.SUBCKT LF411C 1 2 3 4 5
+  C1   11 12 3.498E-12
+  C2    6  7 15E-12
+  DC    5 53 DX
+  DE   54  5 DX
+  DLP  90 91 DX
+  DLN  92 90 DX
+  DP    4  3 DX
+  BGND 99  0 V=V(3)*.5 + V(4)*.5
+  BB    7 99 I=I(VB)*28.29E6 - I(VC)*30E6 + I(VE)*30E6 +
++              I(VLP)*30E6 - I(VLN)*30E6
+  GA    6  0 11 12 282.8E-6
+  GCM   0  6 10 99 1.59E-9
+  ISS   3 10 DC 195E-6
+  HLIM 90  0 VLIM 1K
+  J1   11  2 10 JX
+  J2   12  1 10 JX
+  R2    6  9 100E3
+  RD1   4 11 3.536E3
+  RD2   4 12 3.536E3
+  RO1   8  5 50
+  RO2   7 99 25
+  RP    3  4 15E3
+  RSS  10 99 1.026E6
+  VB    9  0 DC 0
+  VC    3 53 DC 2.2
+  VE   54  4 DC 2.2
+  VLIM  7  8 DC 0
+  VLP  91  0 DC 30
+  VLN   0 92 DC 30
+.MODEL DX D(IS=800E-18)
+.MODEL JX PJF(IS=12.5E-12 BETA=250.1E-6 VTO=-1)
+.ENDS LF411C
+
+*====================================================
+*LF412C
+*Dual LoOffset LoDrift JFET OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.SUBCKT LF412C 1 2 3 4 5
+  C1   11 12 3.498E-12
+  C2    6  7 15E-12
+  DC    5 53 DX
+  DE   54  5 DX
+  DLP  90 91 DX
+  DLN  92 90 DX
+  DP    4  3 DX
+  BGND 99  0 V=V(3)*.5 + V(4)*.5
+  BB    7 99 I=I(VB)*28.29E6 - I(VC)*30E6 + I(VE)*30E6 +
++              I(VLP)*30E6 - I(VLN)*30E6
+  GA    6  0 11 12 282.8E-6
+  GCM   0  6 10 99 1.59E-9
+  ISS   3 10 DC 195E-6
+  HLIM 90  0 VLIM 1K
+  J1   11  2 10 JX
+  J2   12  1 10 JX
+  R2    6  9 100E3
+  RD1   4 11 3.536E3
+  RD2   4 12 3.536E3
+  RO1   8  5 50
+  RO2   7 99 25
+  RP    3  4 15E3
+  RSS  10 99 1.026E6
+  VB    9  0 DC 0
+  VC    3 53 DC 2.2
+  VE   54  4 DC 2.2
+  VLIM  7  8 DC 0
+  VLP  91  0 DC 30
+  VLN   0 92 DC 30
+.MODEL DX D(IS=800E-18)
+.MODEL JX PJF(IS=12.5E-12 BETA=250.1E-6 VTO=-1)
+.ENDS LF412C
+
+*====================================================
+*LM307
+*Sngl GenPurpose OpAmp pkg:DIP8 3,2,7,4,6. pkg:CAN8 3,2,7,4,6.
+.SUBCKT LM307 1 2 3 4 5
+  C1   11 12 8.887E-12
+  C2    6  7 30E-12
+  DC    5 53 DX
+  DE   54  5 DX
+  DLP  90 91 DX
+  DLN  92 90 DX
+  DP    4  3 DX
+  BGND 99  0 V=V(3)*.5 + V(4)*.5
+  BB    7 99 I=I(VB)*42.44E6 - I(VC)*40E6 + I(VE)*40E6 +
++              I(VLP)*40E6 - I(VLN)*40E6
+  GA    6  0 11 12 188.5E-6
+  GCM   0  6 10 99 3.352E-9
+  IEE  10  4 DC 15.14E-6
+  HLIM 90  0 VLIM 1K
+  Q1   11  2 13 QX
+  Q2   12  1 14 QX
+  R2    6  9 100E3
+  RC1   3 11 5.305E3
+  RC2   3 12 5.305E3
+  RE1  13 10 1.839E3
+  RE2  14 10 1.839E3
+  REE  10 99 13.21E6
+  RO1   8  5 50
+  RO2   7 99 25
+  RP    3  4 16.81E3
+  VB    9  0 DC 0
+  VC    3 53 DC 2.6
+  VE   54  4 DC 2.6
+  VLIM  7  8 DC 0
+  VLP  91  0 DC 25
+  VLN   0 92 DC 25
+.MODEL DX D(IS=800E-18)
+.MODEL QX NPN(IS=800E-18 BF=107.1)
+.ENDS LM307
+
+*====================================================
+*LM324
+*Quad LoPwr SnglSup OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.SUBCKT LM324 1 2 3 4 5
+  C1   11 12 5.544E-12
+  C2    6  7 20E-12
+  DC    5 53 DX
+  DE   54  5 DX
+  DLP  90 91 DX
+  DLN  92 90 DX
+  DP    4  3 DX
+  BGND 99  0 V=V(3)*.5 + V(4)*.5
+  BB    7 99 I=I(VB)*15.91E6 - I(VC)*20E6 + I(VE)*20E6 +
++              I(VLP)*20E6 - I(VLN)*20E6
+  GA    6  0 11 12 125.7E-6
+  GCM   0  6 10 99 7.067E-9
+  IEE   3 10 DC 10.04E-6
+  HLIM 90  0 VLIM 1K
+  Q1   11  2 13 QX
+  Q2   12  1 14 QX
+  R2    6  9 100E3
+  RC1   4 11 7.957E3
+  RC2   4 12 7.957E3
+  RE1  13 10 2.773E3
+  RE2  14 10 2.773E3
+  REE  10 99 19.92E6
+  RO1   8  5 50
+  RO2   7 99 50
+  RP    3  4 30.31E3
+  VB    9  0 DC 0
+  VC    3 53 DC 2.1
+  VE   54  4 DC .6
+  VLIM  7  8 DC 0
+  VLP  91  0 DC 40
+  VLN   0 92 DC 40
+.MODEL DX D(IS=800E-18)
+.MODEL QX PNP(IS=800E-18 BF=250)
+.ENDS LM324
+
+*====================================================
+*LM348
+*Quad 741 OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.SUBCKT LM348 1 2 3 4 5
+  C1   11 12 9.461E-12
+  C2    6  7 30E-12
+  DC    5 53 DX
+  DE   54  5 DX
+  DLP  90 91 DX
+  DLN  92 90 DX
+  DP    4  3 DX
+  BGND 99  0 V=V(3)*.5 + V(4)*.5
+  BB    7 99 I=I(VB)*4.715E6 - I(VC)*5E6 + I(VE)*5E6 +
++              I(VLP)*5E6 - I(VLN)*5E6
+  GA    6  0 11 12 256.2E-6
+  GCM   0  6 10 99 4.023E-9
+  IEE  10  4 DC 15.06E-6
+  HLIM 90  0 VLIM 1K
+  Q1   11  2 13 QX
+  Q2   12  1 14 QX
+  R2    6  9 100E3
+  RC1   3 11 4.42E3
+  RC2   3 12 4.42E3
+  RE1  13 10 968
+  RE2  14 10 968
+  REE  10 99 13.28E6
+  RO1   8  5 150
+  RO2   7 99 150
+  RP    3  4 51.28E3
+  VB    9  0 DC 0
+  VC    3 53 DC 3.6
+  VE   54  4 DC 3.6
+  VLIM  7  8 DC 0
+  VLP  91  0 DC 25
+  VLN   0 92 DC 25
+.MODEL DX D(IS=800E-18)
+.MODEL QX NPN(IS=800E-18 BF=250)
+.ENDS LM348
+
+*====================================================
+*LM358
+*Dual LoPwr, HiGain, SnglSup OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.SUBCKT LM358   1 2 3 4 5
+C1   11 12 5.544E-12
+C2    6  7 20.00E-12
+DC    5 53 DX
+DE   54  5 DX
+DLP  90 91 DX
+DLN  92 90 DX
+DP    4  3 DX
+EGND 99  0 POLY(2) 3 0 4 0 0 .5 .5
+FB    7 99 POLY(5) VB VC VE VLP VLN 0 15.91E6 -20E6 20E6 20E6 -20E6
+GA    6  0 11 12 125.7E-6
+GCM   0  6 10 99 7.067E-9
+IEE   3 10 DC 10.04E-6
+HLIM 90  0 VLIM 1K
+Q1   11  2 13 QX
+Q2   12  1 14 QX
+R2    6  9 100.0E3
+RC1   4 11 7.957E3
+RC2   4 12 7.957E3
+RE1  13 10 2.773E3
+RE2  14 10 2.773E3
+REE  10 99 19.92E6
+RO1   8  5 50
+RO2   7 99 50
+RP    3  4 30.31E3
+VB    9  0 DC 0
+VC 3 53 DC 2.100
+VE   54  4 DC .6
+VLIM  7  8 DC 0
+VLP  91  0 DC 40
+VLN   0 92 DC 40
+.MODEL DX D(IS=800.0E-18)
+.MODEL QX PNP(IS=800.0E-18 BF=250)
+.ENDS LM358
+
+*====================================================
+*LM2902
+*Quad LoPwr SnglSup OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.SUBCKT LM2902  1 2 3 4 5
+C1   11 12 2.000E-12
+C2    6  7 6.000E-12
+CEE  10 99 388.6E-15
+DC    5 53 DX
+DE   54  5 DX
+DLP  90 91 DX
+DLN  92 90 DX
+DP    4  3 DX
+BEGND 99 0 V=0.5*V(3)+0.5*V(4)
+BFB 7 99 I=4.823E+7*I(VB)-5E+7*I(VC)+5E+7*I(VE)+5E+7*I(VLP)-5E+7*I(VLN)
+GA    6  0 11 12 41.47E-6
+GCM   0  6 10 99 414.7E-12
+IEE   3 10 DC 2.543E-6
+HLIM 90  0 VLIM 1K
+Q1   11  2 13 QX
+Q2   12  1 14 QX
+R2    6  9 100.0E3
+RC1   4 11 24.11E3
+RC2   4 12 24.11E3
+RE1  13 10 3.043E3
+RE2  14 10 3.043E3
+REE  10 99 78.65E6
+RO1   8  5 50
+RO2   7 99 25
+RP    3  4 37.62E3
+VB    9  0 DC 0
+VC    3 53 DC 1.800
+VE   54  4 DC .88
+VLIM  7  8 DC 0
+VLP  91  0 DC 40
+VLN   0 92 DC 40
+.MODEL DX D(IS=800.0E-18)
+.MODEL QX PNP(IS=800.0E-18 BF=32.03)
+.ENDS LM2902
+
+*====================================================
+*MC1458
+*Dual 741 OpAmp pkg:DIP8 (A:3,2,8,4,1)(B:5,6,8,4,7)
+.SUBCKT MC1458 1 2 3 4 5
+  C1   11 12 4.664E-12
+  C2    6  7 20E-12
+  DC    5 53 DX
+  DE   54  5 DX
+  DLP  90 91 DX
+  DLN  92 90 DX
+  DP    4  3 DX
+  BGND 99  0 V=V(3)*.5 + V(4)*.5
+  BB    7 99 I=I(VB)*10.61E6 - I(VC)*10E6 + I(VE)*10E6 +
++              I(VLP)*10E6 - I(VLN)*10E6
+  GA    6  0 11 12 137.7E-6
+  GCM   0  6 10 99 2.574E-9
+  IEE  10  4 DC 10.16E-6
+  HLIM 90  0 VLIM 1K
+  Q1   11  2 13 QX
+  Q2   12  1 14 QX
+  R2    6  9 100E3
+  RC1   3 11 7.957E3
+  RC2   3 12 7.957E3
+  RE1  13 10 2.74E3
+  RE2  14 10 2.74E3
+  REE  10 99 19.69E6
+  RO1   8  5 150
+  RO2   7 99 150
+  RP    3  4 18.11E3
+  VB    9  0 DC 0
+  VC    3 53 DC 2.6
+  VE   54  4 DC 2.6
+  VLIM  7  8 DC 0
+  VLP  91  0 DC 25
+  VLN   0 92 DC 25
+.MODEL DX D(IS=800E-18)
+.MODEL QX NPN(IS=800E-18 BF=62.5)
+.ENDS MC1458
+
+*====================================================
+*MC3403
+*Quad LoPwr SnglSup OpAmp pkg:DIP14 (A:3,2,4,11,1)(B:5,6,4,11,7)(C:10,9,4,11,8)(D:12,13,4,11,14)
+.SUBCKT MC3403 1 2 3 4 5
+  C1   11 12 7.544E-12
+  C2    6  7 20E-12
+  DC    5 53 DX
+  DE   54  5 DX
+  DLP  90 91 DX
+  DLN  92 90 DX
+  DP    4  3 DX
+  BGND 99  0 V=V(3)*.5 + V(4)*.5
+  BB    7 99 I=I(VB)*42.44E6 - I(VC)*40E6 + I(VE)*40E6 +
++              I(VLP)*40E6 - I(VLN)*40E6
+  GA    6  0 11 12 130.7E-6
+  GCM   0  6 10 99 2.235E-9
+  IEE   3 10 DC 12.4E-6
+  HLIM 90  0 VLIM 1K
+  Q1   11  2 13 QX
+  Q2   12  1 14 QX
+  R2    6  9 100E3
+  RC1   4 11 7.957E3
+  RC2   4 12 7.957E3
+  RE1  13 10 3.529E3
+  RE2  14 10 3.529E3
+  REE  10 99 16.13E6
+  RO1   8  5 37.5
+  RO2   7 99 37.5
+  RP    3  4 43.62E3
+  VB    9  0 DC 0
+  VC    3 53 DC 2.6
+  VE   54  4 DC 2.6
+  VLIM  7  8 DC 0
+  VLP  91  0 DC 30
+  VLN   0 92 DC 30
+.MODEL DX D(IS=800E-18)
+.MODEL QX PNP(IS=800E-18 BF=30)
+.ENDS MC3403
+
+*====================================================
+*uA741
+*Sngl GenPurpose OpAmp pkg:DIP8 3,2,7,4,6. pkg:CAN8 3,2,7,4,6.
+.SUBCKT UA741 1 2 3 4 5
+  C1   11 12 4.664E-12
+  C2    6  7 20E-12
+  DC    5 53 DX
+  DE   54  5 DX
+  DLP  90 91 DX
+  DLN  92 90 DX
+  DP    4  3 DX
+  BGND 99  0 V=V(3)*.5 + V(4)*.5
+  BB    7 99 I=I(VB)*10.61E6 - I(VC)*10E6 + I(VE)*10E6 +
++              I(VLP)*10E6 - I(VLN)*10E6
+  GA    6  0 11 12 137.7E-6
+  GCM   0  6 10 99 2.574E-9
+  IEE  10  4 DC 10.16E-6
+  HLIM 90  0 VLIM 1K
+  Q1   11  2 13 QX
+  Q2   12  1 14 QX
+  R2    6  9 100E3
+  RC1   3 11 7.957E3
+  RC2   3 12 7.957E3
+  RE1  13 10 2.74E3
+  RE2  14 10 2.74E3
+  REE  10 99 19.69E6
+  RO1   8  5 150
+  RO2   7 99 150
+  RP    3  4 18.11E3
+  VB    9  0 DC 0
+  VC    3 53 DC 2.6
+  VE   54  4 DC 2.6
+  VLIM  7  8 DC 0
+  VLP  91  0 DC 25
+  VLN   0 92 DC 25
+.MODEL DX D(IS=800E-18)
+.MODEL QX NPN(IS=800E-18 BF=62.5)
+.ENDS UA741
+
+*====================================================
+*uA747
+*Dual GenPurpose OpAmp pkg:DIP14 (A:2,1,13,4,12)(B:6,7,9,4,10)
+.SUBCKT UA747 1 2 3 4 5
+  C1   11 12 4.664E-12
+  C2    6  7 20E-12
+  DC    5 53 DX
+  DE   54  5 DX
+  DLP  90 91 DX
+  DLN  92 90 DX
+  DP    4  3 DX
+  BGND 99  0 V=V(3)*.5 + V(4)*.5
+  BB    7 99 I=I(VB)*10.61E6 - I(VC)*10E6 + I(VE)*10E6 +
++              I(VLP)*10E6 - I(VLN)*10E6
+  GA    6  0 11 12 137.7E-6
+  GCM   0  6 10 99 2.574E-9
+  IEE  10  4 DC 10.16E-6
+  HLIM 90  0 VLIM 1K
+  Q1   11  2 13 QX
+  Q2   12  1 14 QX
+  R2    6  9 100E3
+  RC1   3 11 7.957E3
+  RC2   3 12 7.957E3
+  RE1  13 10 2.74E3
+  RE2  14 10 2.74E3
+  REE  10 99 19.69E6
+  RO1   8  5 150
+  RO2   7 99 150
+  RP    3  4 18.11E3
+  VB    9  0 DC 0
+  VC    3 53 DC 2.6
+  VE   54  4 DC 2.6
+  VLIM  7  8 DC 0
+  VLP  91  0 DC 25
+  VLN   0 92 DC 25
+.MODEL DX D(IS=800E-18)
+.MODEL QX NPN(IS=800E-18 BF=62.5)
+.ENDS UA747
+
+*====================================================
+*NE5534
+*Sngl LowNoise OpAmp pkg:DIP8 3,2,7,4,6,5,8. pkg:CAN8 3,2,7,4,6,5,8.
+.SUBCKT NE5534 1 2 3 4 5 6 7
+  C1   11 12 7.703E-12
+  DC    5 53 DX
+  DE   54  5 DX
+  DLP  90 91 DX
+  DLN  92 90 DX
+  DP    4  3 DX
+  BGND 99  0 V=V(3)*.5 + V(4)*.5
+  BB    7 99 I=I(VB)*2.893E6 - I(VC)*3E6 + I(VE)*3E6 +
++              I(VLP)*3E6 - I(VLN)*3E6
+  GA    6  0 11 12 1.382E-3
+  GCM   0  6 10 99 13.82E-9
+  IEE  10  4 DC 133E-6
+  HLIM 90  0 VLIM 1K
+  Q1   11  2 13 QX
+  Q2   12  1 14 QX
+  R2    6  9 100E3
+  RC1   3 11 723.3
+  RC2   3 12 723.3
+  RE1  13 10 329
+  RE2  14 10 329
+  REE  10 99 1.504E6
+  RO1   8  5 50
+  RO2   7 99 25
+  RP    3  4 7.757E3
+  VB    9  0 DC 0
+  VC    3 53 DC 2.7
+  VE   54  4 DC 2.7
+  VLIM  7  8 DC 0
+  VLP  91  0 DC 38
+  VLN   0 92 DC 38
+.MODEL DX D(IS=800E-18)
+.MODEL QX NPN(IS=800E-18 BF=132)
+.ENDS NE5534
+
+*====================================================
+*uA748
+*Sngl GenPurpose OpAmp pkg:DIP8 3,2,7,4,6,1,8. pkg:CAN8 3,2,7,4,6,1,8. 
+.SUBCKT UA748 1 2 3 4 5 6 7
+  C1   11 12 7.977E-12
+  DC    5 53 DX
+  DE   54  5 DX
+  DLP  90 91 DX
+  DLN  92 90 DX
+  DP    4  3 DX
+  BGND 99  0 V=V(3)*.5 + V(4)*.5
+  BB    7 99 I=I(VB)*42.44E6 - I(VC)*40E6 + I(VE)*40E6 +
++              I(VLP)*40E6 - I(VLN)*40E6
+  GA    6  0 11 12 188.5E-6
+  GCM   0  6 10 99 3.352E-9
+  IEE  10  4 DC 15.14E-6
+  HLIM 90  0 VLIM 1K
+  Q1   11  2 13 QX
+  Q2   12  1 14 QX
+  R2    6  9 100E3
+  RC1   3 11 5.305E3
+  RC2   3 12 5.305E3
+  RE1  13 10 1.839E3
+  RE2  14 10 1.839E3
+  REE  10 99 13.21E6
+  RO1   8  5 50
+  RO2   7 99 25
+  RP    3  4 16.81E3
+  VB    9  0 DC 0
+  VC    3 53 DC 2.6
+  VE   54  4 DC 2.6
+  VLIM  7  8 DC 0
+  VLP  91  0 DC 25
+  VLN   0 92 DC 25
+.MODEL DX D(IS=800E-18)
+.MODEL QX NPN(IS=800E-18 BF=107.1)
+.ENDS UA748
+
+*==============================================
+*Compara5 pinout: +IN, -IN, +V, -V, OUT
+*==============================================
+
+*SWCOMP
+*IDEAL Voltage Comparator using Switches pkg:DIP8 3,2,7,4,6
+.SUBCKT SWCOMP 6 5 4 7 3
+SVcSW1 4 3 6 5 SSWP5
+SVcSW2 3 7 5 6 SSWM5
+.MODEL SSWP5 SW(VT=0.005 )
+.MODEL SSWM5 SW(VT=-0.005 )
+.ENDS SWCOMP
+
+*LM339
+*Quad SnglSup pkg:DIP14 (A:5,4,3,12,2)(B:7,6,3,12,1)(C:9,8,3,12,14)(D:11,10,3,12,13)
+.SUBCKT LM339 1 2 3 4 5
+F1  9 3 V1 1
+IEE 3 7 DC 100.0E-6
+VI1 21 1 DC .75
+VI2 22 2 DC .75
+Q1  9 21  7 QIN
+Q2  8 22  7 QIN
+Q3  9  8  4 QMO
+Q4  8  8  4 QMI
+.MODEL QIN PNP(IS=800.0E-18 BF=2E3)
+.MODEL QMI NPN(IS=800.0E-18 BF=1002)
+.MODEL QMO NPN(IS=800.0E-18 BF=1000 CJC=1E-15 TR=807.4E-9)
+E1 10  4  9  4  1
+V1 10 11 DC 0
+Q5  5 11  4 QOC
+.MODEL QOC NPN(IS=800.0E-18 BF=20.29E3 CJC=1E-15 TF=942.6E-12 TR=543.8E-9)
+DP  4  3 DX
+RP  3  4 46.3E3
+.MODEL DX  D(IS=800.0E-18)
+.ENDS LM339
+
+*==============================================
+*Compara6 pinout: +IN, -IN, +V, -V, OUT+, OUT-
+*==============================================
+
+*LM111
+*Sngl Differential Comp pkg:DIP8 2,3,8,4,7,1
+.SUBCKT LM111 1 2 3 4 5 6
+F1  9  3 V1 1
+IEE 3  7 DC 100E-6
+VI1 21  1 DC .45
+VI2 22  2 DC .45
+Q1  9 21  7 QIN
+Q2  8 22  7 QIN
+Q3  9  8  4 QMO
+Q4  8  8  4 QMI
+.MODEL QIN PNP(IS=800E-18 BF=833.3)
+.MODEL QMI NPN(IS=800E-18 BF=1002)
+.MODEL QMO NPN(IS=800E-18 BF=1000 CJC=1E-15 TR=118.8E-9)
+E1 10  6  9  4  1
+V1 10 11 DC 0
+Q5  5 11  6 QOC
+.MODEL QOC NPN(IS=800E-18 BF=34.49E3 CJC=1E-15 TF=364.6E-12 TR=79.34E-9)
+DP  4  3 DX
+RP  3  4 6.122E3
+.MODEL DX D(IS=800E-18 RS=1)
+.ENDS LM111
+
+*LP111
+.SUBCKT LP111 1 2 3 4 5 6
+F1  9  3 V1 1
+IEE 3  7 DC 100.0E-6
+VI1 21  1 DC .45
+VI2 22  2 DC .45
+Q1  9  21 7 QIN
+Q2  8  22 7 QIN
+Q3  9   8 4 QMO                                                                                 
+Q4  8   8 4 QMI
+.MODEL QIN PNP(IS=800.0E-18 BF=3.333E3)
+.MODEL QMI NPN(IS=800.0E-18 BF=1002)
+.MODEL QMO NPN(IS=800.0E-18 BF=1000 CJC=1E-15 TR=745.3E-9)
+E1 10   6 9  4  1
+V1 10  11 DC 0
+Q5  5  11 6 QOC
+.MODEL QOC NPN(IS=800.0E-18 BF=10.35E3 CJC=1E-15 TF=10.38E-12 TR=503.0E-9)
+DP  4   3 DX
+RP  3   4 600E3
+.MODEL DX  D(IS=800.0E-18)
+.ENDS LP111
+
+*LP211
+.SUBCKT LP211 1 2 3 4 5 6
+F1  9  3 V1 1
+IEE 3  7 DC 100.0E-6
+VI1 21 1 DC .45
+VI2 22 2 DC .45
+Q1  9 21 7 QIN
+Q2  8 22 7 QIN
+Q3  9  8 4 QMO
+Q4  8  8 4 QMI
+.MODEL QIN PNP(IS=800.0E-18 BF=3.333E3)
+.MODEL QMI NPN(IS=800.0E-18 BF=1002)
+.MODEL QMO NPN(IS=800.0E-18 BF=1000 CJC=1E-15 TR=745.3E-9)
+E1 10  6 9  4  1
+V1 10 11 DC 0
+Q5  5 11  6 QOC
+.MODEL QOC NPN(IS=800.0E-18 BF=10.35E3 CJC=1E-15 TF=10.38E-12 TR=503.0E-9)
+DP  4  3 DX
+RP  3  4 600E3
+.MODEL DX  D(IS=800.0E-18)
+.ENDS LP211
+

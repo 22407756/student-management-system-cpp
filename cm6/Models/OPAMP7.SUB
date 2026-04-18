@@ -1,0 +1,48 @@
+*==============================================
+*OPAMP7 pin order: +I,-I,+V,-V,O,X1,X2
+*Copyright (c) 1997 MicroCode Engineering, Inc.
+*All Rights Reserved
+*==============================================
+
+*====================================================
+*MicroCode Engineering
+
+*Sngl LowNoise OpAmp pkg:DIP8 3,2,7,4,6,5,8
+.PARAM XNE5534 File:Mcemods2.lib
+
+*Sngl GenPurpose OpAmp pkg:DIP8 3,2,7,4,6,1,8 
+.PARAM XUA748 File:Mcemods2.lib
+
+*====================================================
+*Linear Technology
+
+*LTC Sngl OpAmp pkg:DIP8 3,2,7,4,6,1,8
+.PARAM XLM101A File:Ltc.lib
+
+*LTC Sngl OpAmp pkg:DIP8 3,2,7,4,6,1,8
+.PARAM XLM108 File:Ltc.lib
+
+*LTC Dual OpAmp pkg:DIP16 (A:5,4,1,6,16,3,2)(B:13,12,9,6,8,11,10)
+.PARAM XLH2108 File:Ltc.lib
+
+*LTC Sngl OpAmp pkg:DIP8 3,2,7,4,6,1,8
+.PARAM XLM108A File:Ltc.lib
+
+*LTC Dual OpAmp pkg:DIP16 (A:5,4,1,6,16,3,2)(B:13,12,9,6,8,11,10)
+.PARAM XLH2108A File:Ltc.lib
+
+*LTC Sngl LoPwr OpAmp & Reference pkg:DIP8 3,2,7,4,6,1,8
+.PARAM XLM10C File:Ltc.lib
+
+*LTC Sngl OpAmp pkg:DIP8 3,2,7,4,6,1,8
+.PARAM XLM301A File:Ltc.lib
+
+*LTC Sngl OpAmp pkg:DIP8 3,2,7,4,6,1,8
+.PARAM XLM308 File:Ltc.lib
+
+*LTC Sngl OpAmp pkg:DIP8 3,2,7,4,6,1,8
+.PARAM XLM308A File:Ltc.lib
+
+*LTC Sngl pA uV LoNoise OpAmp pkg:DIP8 3,2,7,4,6,1,8
+.PARAM XLT1008 File:Ltc.lib
+

@@ -1,0 +1,8 @@
+
+*74LS30 MCE Nodes: A,B,C,D,E,F,G,H,Y
+*MCE mixed-mode 8-input NAND gate pkg:DIP14 1,2,3,4,5,6,11,12,8
+.SUBCKT X74LS30 1 2 3 4 5 6 7 8 9
+BNLVs1 10 0 V=~(V(1)&v(2)&v(3)&v(4)&v(6)&v(7)&v(8))
+R1 10 9 1
+C1 9 0 .004uF IC=0V
+.ENDS X74LS30

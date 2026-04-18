@@ -1,0 +1,8 @@
+*==============================================
+*IGBT Pinout: 1=C, 2=G, 3=E
+*Copyright (c) 1997 MicroCode Engineering, Inc.
+*All Rights Reserved
+*==============================================
+
+*MCE 600V 40A 24.3ns pkg:TO-220
+.PARAM XPIGBT File:Mceigbts.lib

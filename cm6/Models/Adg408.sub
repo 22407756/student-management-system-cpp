@@ -1,0 +1,28 @@
+* ADG408~ linking file
+
+*AD 8-CH analog Multiplexer pkg:DIP16 4,5,6,7,12,11,10,9,16,16,1,2,8,14,15,3
+.PARAM XADG408 File:Ad3.lib
+
+*AD 8-CH analog Multiplexer pkg:DIP16 4,5,6,7,12,11,10,9,16,16,1,2,8,14,15,3
+.PARAM XADG408B File:Ad3.lib
+
+*AD 8-CH analog Multiplexer pkg:DIP16 4,5,6,7,12,11,10,9,16,16,1,2,8,14,15,3
+.PARAM XADG408T File:Ad3.lib
+
+*AD 8-CH analog Multiplexer pkg:DIP16 4,5,6,7,12,11,10,9,16,16,1,2,8,14,15,3
+.PARAM XADG508F File:Ad3.lib
+
+*AD 8-CH analog Multiplexer pkg:DIP16 4,5,6,7,12,11,10,9,16,16,1,2,8,14,15,3
+.PARAM XADG508FB File:Ad3.lib
+
+*AD 8-CH analog Multiplexer pkg:DIP16 4,5,6,7,12,11,10,9,16,16,1,2,8,14,15,3
+.PARAM XADG508FT File:Ad3.lib
+
+*AD 8-CH analog Multiplexer pkg:DIP16 4,5,6,7,12,11,10,9,16,16,1,2,8,14,15,3
+.PARAM XADG528F File:Ad3.lib
+
+*AD 8-CH analog Multiplexer pkg:DIP16 4,5,6,7,12,11,10,9,16,16,1,2,8,14,15,3
+.PARAM XADG528FB File:Ad3.lib
+
+*AD 8-CH analog Multiplexer pkg:DIP16 4,5,6,7,12,11,10,9,16,16,1,2,8,14,15,3
+.PARAM XADG528FT File:Ad3.lib

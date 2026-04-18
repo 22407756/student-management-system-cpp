@@ -1,0 +1,21 @@
+* AD584~ linking file
+
+*AD Pin programmable Precision Voltage Reference pkg:DIP8 1,2,3,4,5,6,7,8
+.PARAM XAD584 File:Ad3.lib
+
+*AD Pin programmable Precision Voltage Reference pkg:DIP8 1,2,3,4,5,6,7,8
+.PARAM XAD584J File:Ad3.lib
+
+*AD Pin programmable Precision Voltage Reference pkg:DIP8 1,2,3,4,5,6,7,8
+.PARAM XAD584K File:Ad3.lib
+
+*AD Pin programmable Precision Voltage Reference pkg:DIP8 1,2,3,4,5,6,7,8
+.PARAM XAD584L File:Ad3.lib
+
+*AD Pin programmable Precision Voltage Reference pkg:DIP8 1,2,3,4,5,6,7,8
+.PARAM XAD584S File:Ad3.lib
+
+*AD Pin programmable Precision Voltage Reference pkg:DIP8 1,2,3,4,5,6,7,8
+.PARAM XAD584T File:Ad3.lib
+
+

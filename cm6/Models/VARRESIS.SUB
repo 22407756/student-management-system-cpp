@@ -1,0 +1,9 @@
+*XVARRESISTOR:Potentiometer Subcircuit Parameters
+*XVARRESISTOR:VALUE:|Total resistance [1,]|1k
+*XVARRESISTOR:WIPER:|Percent on [1,100]%|50
+*{VALUE=1k WIPER=50}
+*Generic type:potentiometer
+.SUBCKT XVARRESISTOR 1 2 3
+R1 1 2 {((VALUE * WIPER)/100)}
+R2 2 3 {(VALUE - ((VALUE * WIPER)/100))}
+.ENDS XVARRESISTOR

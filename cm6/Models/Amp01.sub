@@ -1,0 +1,4 @@
+* AMP01~ linking file
+
+*AD Low Noise, Precision Instrumentation Amp pkg:DIP18 1,2,3,7,8,9,10,11,12,13,14,15,18
+.PARAM XAMP01 File:Ad3.lib

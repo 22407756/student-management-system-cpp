@@ -1,0 +1,9 @@
+*Generic SR Flip-Flip MCE Nodes: S,R,QN,Q
+*MCE mixed-mode Set/Reset Flip-Flop
+.SUBCKT XSRFF 3 2 4 5
+XU1A 7 4 5 7400
+XU1B 5 6 4 7400
+XU2A 3 7 7404
+XU2B 2 6 7404
+.IC V(4)=0V V(5)=4.5V
+.ENDS XSRFF

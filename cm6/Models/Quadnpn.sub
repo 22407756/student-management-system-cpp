@@ -1,0 +1,4 @@
+* QuadNPN~ linking file
+
+*AD Si Quad Matched NPN 40V 30mA 300MHz pkg:DIP14 1,2,3,4,5,6,7,8,9,10,12,13,14
+.PARAM XMAT04 File:AD3.lib

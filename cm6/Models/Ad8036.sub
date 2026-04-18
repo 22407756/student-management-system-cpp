@@ -1,0 +1,4 @@
+* AD8036~ linking file
+
+*AD Low distortion, wide bandwidth clamp amps pkg:DIP8 3,2,8,5,7,4,6
+.PARAM XAD8036an File:Ad3.lib

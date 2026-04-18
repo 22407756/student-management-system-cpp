@@ -1,0 +1,57 @@
+*==============================================
+*Math Functions for Current
+*I-Math1 Pinout:  +I -I -O +O
+*Copyright (c) 1997 MicroCode Engineering, Inc.
+*All Rights Reserved
+*==============================================
+
+*Absolute value of Current -- pkg:ABS(I)
+.PARAM XABSI File:Mcemods1.lib
+
+*Arc cosine of Current -- pkg:ACOS(I)
+.PARAM XACOSI File:Mcemods1.lib
+
+*Hyperbolic arc cosine of Current -- pkg:ACOSH(I)
+.PARAM XACOSHI File:Mcemods1.lib
+
+*Arc sine of Current -- pkg:ASIN(I)
+.PARAM XASINI File:Mcemods1.lib
+
+*Hyperbolic arc sine of Current -- pkg:ASINH(I)
+.PARAM XASINHI File:Mcemods1.lib
+
+*Arc tangent of Current -- pkg:ATAN(I)
+.PARAM XATANI File:Mcemods1.lib
+
+*Hyperbolic arc tangent of Current -- pkg:ATANH(I)
+.PARAM XATANHI File:Mcemods1.lib
+
+*Cosine of Current -- pkg:COS(I)
+.PARAM XCOSI File:Mcemods1.lib
+
+*Hyperbolic cosine of Current -- pkg:COSH(I)
+.PARAM XCOSHI File:Mcemods1.lib
+
+*Exponential of Current -- pkg:EXP(I)
+.PARAM XEXPI File:Mcemods1.lib
+
+*Natural logarithm of Current -- pkg:LN(I)
+.PARAM XLNI File:Mcemods1.lib
+
+*Logarithm of Current -- pkg:LOG(I)
+.PARAM XLOGI File:Mcemods1.lib
+
+*Sine of Current -- pkg:SIN(I)
+.PARAM XSINI File:Mcemods1.lib
+
+*Hyperbolic sine of Current -- pkg:SINH(I)
+.PARAM XSINHI File:Mcemods1.lib
+
+*Square root of Current -- pkg:SQRT(I)
+.PARAM XSQRTI File:Mcemods1.lib
+
+*Tangent of Current -- pkg:TAN(I)
+.PARAM XTANI File:Mcemods1.lib
+
+*Unary - of Current -- pkg:-(I)
+.PARAM XUNARYI File:Mcemods1.lib

@@ -1,0 +1,18 @@
+
+*alias:XTRANS {RATIO=10}
+.PARAM A1to10
+
+*alias:XTRANS {RATIO=5}
+.PARAM A1to5
+
+*alias:XTRANS {RATIO=2}
+.PARAM A1to2
+
+*alias:XTRANS {RATIO=1}
+.PARAM A1to1
+
+*alias:XTRANS {RATIO=0.2}
+.PARAM A5to1
+
+*alias:XTRANS {RATIO=0.1}
+.PARAM A10to1

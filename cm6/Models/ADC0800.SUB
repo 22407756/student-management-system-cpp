@@ -1,0 +1,20 @@
+*National 8-bit A/D converter - pkg:DIP18 (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18)
+.SUBCKT XADC0800 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+*reference and input resistances
+R1 5 15 7.68E5
+R2 12 18 2E5
+
+*reference to VSS diode
+D1 15 10 DMOD
+.model DMOD D()
+
+* ADC and DAC node bridges
+A1 [23 25 26 28 29 31 33 35 36 37 39 41 44] [2 17 16 14 13 11 10 1 3 4 6 7 9] dac_mod
+A2 [18 15 12 11 10 5 6 7 8] [24 27 30 32 34 38 40 42 43] adc_mod
+.model dac_mod xdac
+.model adc_mod xadc
+
+*A/D converter
+AU1 [34 24 43 27 38 30 32 40 42] [33 31 39 41 29 28 26 25 35 23 36 37 44] AADC0800
+.model AADC0800 xsimcode(file="{MODEL_PATH}ADC0800.SCB" func=ADC0800 )
+.ENDS XADC0800

@@ -1,0 +1,7 @@
+*4050 MCE Nodes: A,Y
+*MCE mixed-mode buffer pkg:DIP16 (A:3,2)(B:5,4)(C:7,6)(D:9,10)(E:11,12)(F:14,15)
+.SUBCKT X4050 5 3
+BNLVs1 4 0 V=V(5)
+R1 4 3 1
+C1 3 0 .004uF IC=0V
+.ENDS X4050

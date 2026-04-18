@@ -1,0 +1,8 @@
+*==============================================
+*NPN Darling2 Pinout: C,B,E
+*Copyright (c) 1997 MicroCode Engineering, Inc.
+*All Rights Reserved
+*==============================================
+
+*Default darlington NPN transistor pkg:TO-92B 1,2,3
+.PARAM XNPN2 File:Mcebjt.lib

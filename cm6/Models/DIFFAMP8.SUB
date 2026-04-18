@@ -1,0 +1,12 @@
+* Diff-Amp8~ linking file
+*==============================================
+*Diff-Amp8 pin order: BAL1 IN- IN+  V-  REF Out V+ BAL2
+*Copyright (c) 1998 MicroCode Engineering, Inc.
+*All Rights Reserved
+*==============================================
+
+*====================================================
+*Linear Technology
+
+*LTC Sngl Video Difference Amp pkg:DIP8 1,2,3,4,5,6,7,8
+.PARAM XLT1194 File:Ltc.lib

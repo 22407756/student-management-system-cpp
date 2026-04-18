@@ -1,0 +1,1336 @@
+1Multipliers
+2Multipliers
+3|AD633
+3|AD734
+3|MLT04
+1Timers
+2Timers
+3555/556 Timer|555 Timer
+1Regulators
+2Regulators
+3|Regulator3
+1References
+2References
+3|AD581
+3|AD584
+3|AD587
+3|AD588
+3|AD680
+3|AD780
+3|ShuntRef
+3|Reference3
+3|REFxx
+3|REF19x
+1OPAMPs
+2OPAMPs
+3Op-Amp3|Op Amp
+3|Op-Amp5
+3|Op-Amp5:A
+3|Op-Amp6
+3|Op-Amp6:A
+3|Op-Amp7
+3|Op-Amp7:A
+1Amplifiers/Buffers
+2Variable Gain Amps
+3|GainAmp1
+3|GainAmp2
+2OPAMPs
+3Op-Amp3|Op Amp
+3|Op-Amp5
+3|Op-Amp5:A
+3|Op-Amp6
+3|Op-Amp6:A
+3|Op-Amp7
+3|Op-Amp7:A
+2Buffers/Amps
+3|Analog Mux2
+3|Amp10
+3|Amp8
+3|BUF04
+3|Diff-Amp8
+3|Diff-Amp7
+3|CFA-Amp8
+3|CDA-5
+3|Buffer/Amp
+3|AD620
+3|AD624
+3|AD626
+3|AD816
+3|AD830
+3|AD2205x
+3|AD8036
+3|AMP01
+3|AMP0x
+1Modulators
+2Modulators
+3|AD630
+3|MC1496
+1Phase-Locked Loops
+2Phase-Locked Loops
+3|PLL
+1VCOs
+2VCOs
+3|VCO
+1Comparators
+2Comparators
+3|Comparator6
+3|Comparator5
+3|AD8561
+1MOSFETs
+2MOSFETs Enh
+3|P-EMOS 4T:A
+3|P-EMOS 4T
+3|P-EMOS 3T:A
+3|P-EMOS 3T
+3|N-EMOS 4T:A
+3|N-EMOS 4T
+3|N-EMOS 3T:A
+3|N-EMOS 3T
+2MOSFETs Depl
+3|P-DMOS 4T:A
+3|P-DMOS 4T
+3|P-DMOS 3T:A
+3|P-DMOS 3T
+3|N-DMOS 4T:A
+3|N-DMOS 4T
+3|N-DMOS 3T:A
+3|N-DMOS 3T
+1Triacs
+2Triacs
+3|Triac:B
+3|Triac:A
+1SCRs
+2SCRs
+3|SCR
+1Transistors
+2Unijunction
+3|PUT
+3|N-UJT
+2MOSFETs Enh
+3|P-EMOS 4T:A
+3|P-EMOS 4T
+3|P-EMOS 3T:A
+3|P-EMOS 3T
+3|N-EMOS 4T:A
+3|N-EMOS 4T
+3|N-EMOS 3T:A
+3|N-EMOS 3T
+2MOSFETs Depl
+3|P-DMOS 4T:A
+3|P-DMOS 4T
+3|P-DMOS 3T:A
+3|P-DMOS 3T
+3|N-DMOS 4T:A
+3|N-DMOS 4T
+3|N-DMOS 3T:A
+3|N-DMOS 3T
+2MESFETs
+3|P-MESFET
+3|P-MESFET:A
+3|N-MESFET
+3|N-MESFET:A
+2JFETs
+3|P-JFET:A
+3|P-JFET
+3|N-JFET:A
+3|N-JFET
+2IGBTs
+3|P-IGBT:C
+3|P-IGBT:B
+3|P-IGBT:A
+3|P-IGBT
+3|N-IGBT:C
+3|N-IGBT:B
+3|N-IGBT:A
+3|N-IGBT
+2BJTs
+3|PNP Trans:C
+3|PNP Trans:B
+3|NPN Trans:C
+3|NPN Trans:B
+2Matched Transistors
+3|DualNPN
+3|DualPNP
+3|QuadNPN
+2Darlingtons
+3|PNP Darling3
+3|PNP Darling2
+3|PNP Darling1
+3|NPN Darling3
+3|NPN Darling2
+3|NPN Darling1
+1Diodes
+2Diodes
+3|Zener AKA
+3|Zener Diode
+3|Varactor:A
+3|Varactor
+3|Schottky
+3|LED
+3|FW Bridge
+3|Diode KAK
+3|Diode AKA
+3|Diode ACK
+3|Diode
+1Vacuum Tubes
+2Vacuum Tubes
+3|Vac Diode:H
+3|Vac Diode
+3|Triode:H
+3|Triode
+3|Tetrode:H
+3|Tetrode
+3|Pentode:H
+3|Pentode
+1Resistors
+2Resistors
+3|Var ResistorA
+3|Var Resistor
+3|SemiResistorA
+3|SemiResistor
+3|Resistor:A
+3|Resistor
+2Resistor Packs
+3|RDIP14
+3|RDIP14:A
+3|RDIP16
+3|RDIP16:A
+3|RSIP10
+3|RSIP10:A
+3|RSIP6
+3|RSIP6:A
+3|RSIP8
+3|RSIP8:A
+1Capacitors
+2Capacitors
+3|Var Capacitor
+3|SemiCapacitor
+3|Polar Cap
+3|Capacitor
+1Inductors
+2Inductors
+3|Var Inductor
+3|Inductor
+3|Coil 5T
+3|Coil 3T
+1.General
+2Resistors
+3|Var ResistorA
+3|Var Resistor
+3|SemiResistorA
+3|SemiResistor
+3|Resistor:A
+3|Resistor
+2Capacitors
+3|Var Capacitor
+3|SemiCapacitor
+3|Polar Cap
+3|Capacitor
+2Inductors
+3|Var Inductor
+3|Inductor
+3|Coil 5T
+3|Coil 3T
+2BJTs
+3|PNP Trans:C
+3|PNP Trans:B
+3|NPN Trans:C
+3|NPN Trans:B
+2Diodes
+3|Zener AKA
+3|Zener Diode
+3|Varactor:A
+3|Varactor
+3|Schottky
+3|LED
+3|FW Bridge
+3|Diode KAK
+3|Diode AKA
+3|Diode ACK
+3|Diode
+2Sources
+3|I Source
+3|V Source
+3|Battery
+3|+V
+3|Ground
+2Instruments
+3|Data Seq
+3|Multimeter
+3|Signal Gen
+1Math Functions
+2Voltage
+3|V-Math2 Ref
+3|V-Math2
+3|V-Math1 Ref
+3|V-Math1
+2Current
+3|I-Math2
+3|I-Math1
+2Function Blocks
+3|ddt
+3|ddt:A
+3|divider
+3|divider:A
+3|integrator
+3|integrator:A
+3|multiplier
+3|multiplier:A
+3|summer
+3|summer:A
+3|sxfer
+3|sxfer:A
+1Function Blocks
+2Limiters
+3|climiter
+3|climiter:A
+3|ilimiter
+3|ilimiter:A
+3|limiter
+3|limiter:A
+2Math
+3|ddt
+3|ddt:A
+3|divider
+3|divider:A
+3|integrator
+3|integrator:A
+3|multiplier
+3|multiplier:A
+3|summer
+3|summer:A
+3|sxfer
+3|sxfer:A
+2Misc.
+3|cmeter
+3|cmeter:A
+3|gain
+3|gain:A
+3|hysteresis
+3|hysteresis:A
+3|lmeter
+3|lmeter:A
+3|one shot
+3|one shot:A
+3|PWLCS
+3|PWLCS:A
+3|slewrate
+3|slewrate:A
+1Crystals
+2Standard
+3|Crystal
+1Fuses
+2Electronic
+3|Fuse
+3|Fuse:A
+2Thermal
+3|Fuse:Thermal
+1Connectors
+2Active
+3|Input
+3|Output
+3|Terminal
+3|Terminal:A
+3|Terminal:B
+3|Terminal:C
+3|Terminal:D
+3|Terminal:E
+3|Terminal:F
+2DB Type
+3|DB-25
+3|DB-15HD
+3|DB-15
+3|DB-9
+2SIP Type
+3|SIP20
+3|SIP16
+3|SIP12
+3|SIP10
+3|SIP9
+3|SIP8
+3|SIP7
+3|SIP6
+3|SIP5
+3|SIP4
+3|SIP3
+3|SIP2
+2IDC Type
+3|IDC10
+3|IDC16
+3|IDC20
+3|IDC26
+3|IDC34
+3|IDC36
+3|IDC40
+3|IDC50
+2Misc
+3|13W3
+3|AC Outlet
+3|AC Plug
+3|Connector
+3|Mono Jack
+3|Phone Jack
+3|Phone Plug
+3|Stereo Jack
+1Transmission Lines
+2SPICE Simulation
+3|URC-Line
+3|LossyLine
+3|LossLessLine
+2Schematic Only
+3|TwistedPair
+3|TwinLead
+3|Coax
+1Transformers
+2Subcircuit
+3|Trans3
+3|Trans2
+3|Trans1
+2Coupled Inductors
+3|Transformer
+3|CTTransformer
+2XSpice
+3|core
+3|lcouple
+3|xfmr
+1Schematic Symbols
+2Antennas
+3|Antenna
+2Cables
+3|TwistedPair
+3|TwinLead
+3|Coax
+2Diacs
+3|Diac:B
+3|Diac:A
+3|Diac:C
+3|Diac:D
+2Diodes
+3|Tunnel
+3|Shockley
+2Misc
+3|Caution
+1Linear ICs
+2Multipliers
+3|AD633
+3|AD734
+3|MLT04
+2Timers
+3555/556 Timer|555 Timer
+2Regulators
+3|Regulator3
+2References
+3|AD581
+3|AD584
+3|AD587
+3|AD588
+3|AD680
+3|AD780
+3|ShuntRef
+3|Reference3
+3|REFxx
+3|REF19x
+2Variable Gain Amps
+3|GainAmp1
+3|GainAmp2
+2OPAMPs
+3Op-Amp3|Op Amp
+3|Op-Amp5
+3|Op-Amp5:A
+3|Op-Amp6
+3|Op-Amp6:A
+3|Op-Amp7
+3|Op-Amp7:A
+2Modulators
+3|AD630
+3|MC1496
+2Phase-Locked Loops
+3|PLL
+2VCOs
+3|VCO
+2Comparators
+3|Comparator6
+3|Comparator5
+3|AD8561
+2Buffers/Amps
+3|Analog Mux2
+3|Amp10
+3|Amp8
+3|BUF04
+3|Diff-Amp8
+3|Diff-Amp7
+3|CFA-Amp8
+3|CDA-5
+3|Buffer/Amp
+3|AD620
+3|AD624
+3|AD626
+3|AD816
+3|AD830
+3|AD2205x
+3|AD8036
+3|AMP01
+3|AMP0x
+1Active Components
+2Unijunction
+3|PUT
+3|N-UJT
+2Triacs
+3|Triac:B
+3|Triac:A
+2SCRs
+3|SCR
+2MOSFETs Enh
+3|P-EMOS 4T:A
+3|P-EMOS 4T
+3|P-EMOS 3T:A
+3|P-EMOS 3T
+3|N-EMOS 4T:A
+3|N-EMOS 4T
+3|N-EMOS 3T:A
+3|N-EMOS 3T
+2MOSFETs Depl
+3|P-DMOS 4T:A
+3|P-DMOS 4T
+3|P-DMOS 3T:A
+3|P-DMOS 3T
+3|N-DMOS 4T:A
+3|N-DMOS 4T
+3|N-DMOS 3T:A
+3|N-DMOS 3T
+2MESFETs
+3|P-MESFET
+3|P-MESFET:A
+3|N-MESFET
+3|N-MESFET:A
+2JFETs
+3|P-JFET:A
+3|P-JFET
+3|N-JFET:A
+3|N-JFET
+2IGBTs
+3|P-IGBT:C
+3|P-IGBT:B
+3|P-IGBT:A
+3|P-IGBT
+3|N-IGBT:C
+3|N-IGBT:B
+3|N-IGBT:A
+3|N-IGBT
+2BJTs
+3|PNP Trans:C
+3|PNP Trans:B
+3|NPN Trans:C
+3|NPN Trans:B
+2Matched Transistors
+3|DualNPN
+3|DualPNP
+3|QuadNPN
+2Darlingtons
+3|PNP Darling3
+3|PNP Darling2
+3|PNP Darling1
+3|NPN Darling3
+3|NPN Darling2
+3|NPN Darling1
+2Diodes
+3|Zener AKA
+3|Zener Diode
+3|Varactor:A
+3|Varactor
+3|Schottky
+3|LED
+3|FW Bridge
+3|Diode KAK
+3|Diode AKA
+3|Diode ACK
+3|Diode
+2Vacuum Tubes
+3|Vac Diode:H
+3|Vac Diode
+3|Triode:H
+3|Triode
+3|Tetrode:H
+3|Tetrode
+3|Pentode:H
+3|Pentode
+1Passive Components
+2Inductors
+3|Var Inductor
+3|Inductor
+3|Coil 5T
+3|Coil 3T
+2Capacitors
+3|Var Capacitor
+3|SemiCapacitor
+3|Polar Cap
+3|Capacitor
+2Resistors
+3|Var ResistorA
+3|Var Resistor
+3|SemiResistorA
+3|SemiResistor
+3|Resistor:A
+3|Resistor
+2Resistor Packs
+3|RDIP14
+3|RDIP14:A
+3|RDIP16
+3|RDIP16:A
+3|RSIP10
+3|RSIP10:A
+3|RSIP6
+3|RSIP6:A
+3|RSIP8
+3|RSIP8:A
+1Digital Animated
+2Animated
+3|Car
+3|Rocket
+3|Window
+2Motors
+3|DC Motor
+3|Stepper
+2Displays
+3|CA 7-Seg
+3|CC 7-Seg
+3|Ascii Display
+3|Hex Display
+3|Logic Display
+3|LED
+3|Lamp
+3|StopLight
+2Optical
+3|Opto Isolator
+1Digital Basics
+2Buffers/Inverters
+3|Buffer
+3Buffer 3S Quad|Quad 3-State
+3Buffer 3S E|Buffer 3S
+3Buffer 3S EN|BuffA 3S
+3|Inverter:DM
+3|Inverter
+2Flip-Flops
+3D|D Flip-Flop
+3D Quad|Quad D Flop
+3D SR|4013
+3D SRN|7474
+3JK SR|4027
+3JK SRN|74112
+3SR|SR Flip-Flop
+3|JK RN
+2Gates (DeMorgan)
+3|8-In NAND:DM
+3|4-In NAND:DM
+3|3-In NAND:DM
+3|2-In NAND:DM
+3|8-In NOR:DM
+3|4-In NOR:DM
+3|3-In NOR:DM
+3|2-In NOR:DM
+3|4-In AND:DM
+3|3-In AND:DM
+3|2-In AND:DM
+3|4-In OR:DM
+3|3-In OR:DM
+3|2-In OR:DM
+2Gates
+3|2-In XNOR
+3|2-In XOR
+3|8-In NAND
+3|4-In NAND
+3|3-In NAND
+3|2-In NAND
+3|8-In NOR
+3|4-In NOR
+3|3-In NOR
+3|2-In NOR
+3|4-In AND
+3|3-In AND
+3|2-In AND
+3|4-In OR
+3|3-In OR
+3|2-In OR
+2Gates OC
+33-In NAND|7412
+33-In AND|7415
+34-In NAND|7422
+32-In XOR|74136
+32-In XNOR|74266
+1Digital by Function
+2Arithmetic
+37483|74LS83
+374181|74LS181
+374182|74S182
+374283|74LS283
+3|4008
+2Buff/Driver 3S
+374125|74LS125
+374125 1/4|BuffA 3S
+374126|74LS126
+374126 1/4|Buffer 3S
+374240|74LS240
+374241|74LS241
+374242|74LS242
+374243|74LS243
+374244|74LS244
+374244 1/2|Quad 3-State
+374245|74LS245
+2Buff/Driver OC
+3|7405
+37406|7405
+3|7407
+37416|7405
+37417|7407
+37438|7403
+37439|7401
+3|7445
+2Buff/Driver
+37437|2-In NAND
+37440|4-In NAND
+3|4041
+3|4049
+34050|Buffer
+3|4502
+2Comparators
+37485|74LS85
+3|4585
+2Counters
+37490|74LS90
+37492|74LS92
+37493|74LS93
+374160|74LS160
+374161|74LS161
+374162|74LS162
+374163|74LS163
+374168|74LS168
+374169|74LS169
+374190|74LS190
+374191|74LS191
+374192|74LS192
+374193|74LS193
+374197|74LS197
+374290|74LS290
+374293|74LS293
+374568|74LS568
+374569|74LS569
+3|4017
+3|4018
+3|4020
+34022|CD4022
+3|4024
+3|4029
+3|4040
+3|4510
+3|4516
+3|4518
+34520|CD4520
+3|4522
+3|4526
+2Decode/Demux
+37442|74LS42
+3|7445
+37447|74LS47
+37448|74LS48
+374138|74LS138
+374139|74LS139
+374154|74LS154
+374155|74LS155
+374247|74LS247
+374248|74LS248
+3|4028
+3|4511
+3|4514
+3|4515
+3|4543
+3|4555
+3|4556
+2Flip-Flops
+37473|74LS73
+37473 1/2|JK RN
+37474|74LS74
+37474 1/2|7474
+37476|74LS76
+37476 1/2|74112
+374107|74LS107
+374107 1/2|JK RN
+374109|74LS109
+374109 1/2|74109
+374112|74LS112
+374112 1/2|74112
+374113|74LS113
+374113 1/2|74113
+374173|74LS173
+374174|74LS174
+374175|74LS175
+374273|74LS273
+374374|74LS374
+374377|74LS377
+374378|74LS378
+3|4013
+3|4027
+3|4076
+2Gates AND
+374LS08|2-In AND
+374LS09|7409
+374LS11|3-In AND
+374LS21|4-In AND
+37408|2-In AND
+3|7415
+3|4073
+3|4081
+3|4082
+2Gates Buffers
+374LS07|7407
+3|7407
+3|4041
+34050|Buffer
+2Gates Combined
+3|4000
+3|4085
+3|4086
+2Gates Inverters
+37404|Inverter
+3|7405
+37406|7405
+3|7414
+37416|7405
+3|4041
+3|4049
+3|4069
+2Gates NAND
+37400|2-In NAND
+3|7401
+3|7403
+37410|3-In NAND
+3|7412
+3|7413
+37420|4-In NAND
+3|7422
+37426|7403
+37430|8-In NAND
+37437|2-In NAND
+37438|7403
+37439|7401
+37440|4-In NAND
+374133|74S133
+3|4011
+3|4012
+3|4023
+3|4068
+3|4093
+2Gates NOR
+37402|2-In NOR
+3|7425
+37427|3-In NOR
+37428|2-In NOR
+3|7433
+3|4000
+3|4001
+34002|4-In NOR
+3|4025
+34078|8-In NOR
+2Gates OR
+37432|2-In OR
+3|4071
+34072|4-In OR
+34075|3-In OR
+2Gates XNOR
+3|74266
+34077|2-In XNOR
+2Gates XOR
+37486|2-In XOR
+3|74136
+3|4030
+3|4070
+2Gates OC
+3|7412
+3|7415
+3|7422
+3|74136
+3|74266
+2Latches
+3|74LS75
+3|74LS375
+3|74LS256
+3|74LS259
+3|74LS373
+37475|74LS75
+374375|74LS375
+374256|74LS256
+374259|74LS259
+374373|74LS373
+3|4042
+3|4043
+3|4044
+3|4508
+2Level Translators
+34050|Buffer
+3|4104
+2Multiplexers
+374151|74LS151
+374153|74LS153
+374157|74LS157
+374158|74LS158
+374251|74LS251
+374253|74LS253
+374257|74LS257
+374258|74LS258
+374298|74LS298
+374352|74LS352
+374353|74LS353
+3|4019
+34512|CD4512
+3|4519
+3|4539
+2Parity
+374280|74LS280
+3|4531
+2Priority Encoders
+3|4532
+2PROM
+3|PROM32
+2RAM
+3|4505
+3RAM1K|1K RAM
+2Registers
+374298|74LS298
+3|4076
+2Shift Registers
+37495|74LS95
+37496|74LS96
+374164|74LS164
+374165|74LS165
+374166|74LS166
+374194|74LS194
+374195|74LS195
+374199|74LS199
+3|4006
+3|4014
+3|4015
+3|4021
+3|4031
+3|4035
+3|4094
+3|4517
+3|4731
+1Digital by Number
+2745xx
+374569|74LS569
+374568|74LS568
+2743xx
+374378|74LS378
+374377|74LS377
+374375|74LS375
+374374|74LS374
+374373|74LS373
+374353|74LS353
+374352|74LS352
+2742xx
+374298|74LS298
+374293|74LS293
+374290|74LS290
+374283|74LS283
+374280|74LS280
+374273|74LS273
+3|74266
+374259|74LS259
+374258|74LS258
+374257|74LS257
+374256|74LS256
+374253|74LS253
+374251|74LS251
+374248|74LS248
+374247|74LS247
+374245|74LS245
+374244|74LS244
+374244 1/2|Quad 3-State
+374243|74LS243
+374242|74LS242
+374241|74LS241
+374240|74LS240
+2741xx
+374199|74LS199
+374197|74LS197
+374195|74LS195
+374194|74LS194
+374193|74LS193
+374192|74LS192
+374191|74LS191
+374190|74LS190
+374182|74S182
+374181|74LS181
+374175|74LS175
+374174|74LS174
+374173|74LS173
+374169|74LS169
+374168|74LS168
+374166|74LS166
+374165|74LS165
+374164|74LS164
+374163A|74LS163
+374162A|74LS162
+374161A|74LS161
+374160A|74LS160
+374158|74LS158
+374157|74LS157
+374155|74LS155
+374154|74LS154
+374153|74LS153
+374151|74LS151
+3|74148
+3|74147
+374139|74LS139
+374138|74LS138
+3|74136
+374133|74S133
+374126|74LS126
+374126 1/4|Buffer 3S
+374125|74LS125
+374125 1/4|BuffA 3S
+374113|74LS113
+374113 1/2|74113
+374112|74LS112
+374112 1/2|74112
+374109|74LS109
+374109 1/2|74109
+374107|74LS107
+374107 1/2|JK RN
+274xx
+37400|2-In NAND
+3|7401
+37402|2-In NOR
+3|7403
+37404|Inverter
+3|7405
+37406|7405
+3|7407
+37408|2-In AND
+3|7409
+37410|3-In NAND
+37411|3-In AND
+3|7412
+3|7413
+3|7414
+3|7415
+37416|7405
+37417|7407
+37420|4-In NAND
+37421|4-In AND
+3|7422
+3|7425
+37426|7403
+37427|3-In NOR
+37428|2-In NOR
+37430|8-In NAND
+37432|2-In OR
+3|7433
+37437|2-In NAND
+37438|7403
+37439|7401
+37440|4-In NAND
+37442|74LS42
+3|7445
+37447|74LS47
+37448|74LS48
+37473|74LS73
+37473 1/2|JK RN
+37474|74LS74
+37474 1/2|7474
+37475|74LS75
+37476|74LS76
+37476 1/2|74112
+37483|74LS83
+37485|74LS85
+37486|2-In XOR
+37490|74LS90
+37492|74LS92
+37493|74LS93
+37495|74LS95
+37496|74LS96
+240xx
+3|4000
+3|4001
+34002|4-In NOR
+3|4006
+3|4008
+3|4011
+3|4012
+3|4013
+3|4014
+3|4015
+3|4017
+3|4018
+3|4019
+3|4020
+3|4021
+34022|CD4022
+3|4023
+3|4024
+3|4025
+3|4027
+3|4028
+3|4029
+3|4030
+3|4031
+3|4035
+3|4040
+3|4041
+3|4042
+3|4043
+3|4044
+3|4049
+34050|Buffer
+3|4068
+3|4069
+3|4070
+3|4071
+34072|4-In OR
+3|4073
+34075|3-In OR
+3|4076
+34077|2-In XNOR
+34078|8-In NOR
+3|4081
+3|4082
+3|4085
+3|4086
+3|4093
+3|4094
+241xx
+3|4104
+245xx
+3|4502
+3|4505
+3|4508
+3|4510
+3|4511
+34512|CD4512
+3|4514
+3|4515
+3|4516
+3|4517
+3|4518
+3|4519
+34520|CD4520
+3|4522
+3|4526
+3|4531
+3|4532
+3|4539
+3|4543
+3|4555
+3|4556
+3|4585
+247xx
+3|4731
+1Relays
+2Coil
+3Standard|Relay Coil:A
+3Rectangle|Relay Coil:B
+3Circle|Relay Coil:C
+3|Polar Coil
+3|Latch Coil
+3|Polar Latch
+3|Solenoid
+2Contacts
+3SPDT:A|Contacts:A
+3SPDT:B|Contacts:B
+3SPDT:C|Contacts:C
+3SPST-NO|Contacts:D
+3SPST-NC|Contacts:E
+2Complete
+3|SPDT Relay
+1Switches
+2Soild State
+3|ADG41x
+3|ADG44x
+2Multiplexers
+3|ADG406
+3|ADG407
+3|ADG408
+3|ADG409
+2Controlled
+3|V->Switch
+3|I->Switch
+2Matrix
+3|4x4 Switch
+2Push Button
+3|NC PushButton
+3|NO PushButton
+3|SPDT PB
+2Toggle
+3|SPDT Switch
+3|SPST Switch
+2Digital
+3|Logic Switch
+3|Ascii Key
+3|Hex Key
+1Transducers
+2Sound Device
+3|Speaker
+3|Piezo Buzzer
+1Displays
+2Digital
+3|Ascii Display
+3|Hex Display
+3|Logic Display
+27-Segment LED
+3|CC 7-Seg
+3|CA 7-Seg
+2Diode
+3|LED
+2Incandescent
+3|Lamp
+1Optical devices
+2Coupler
+3|Opto Isolator
+2Sensors
+3|Photo Diode
+3|Photo NPN
+3|Photo Resist
+1Motors
+2DC
+3|DC Motor
+3|Stepper
+1Instruments
+2Analog
+3|Multimeter
+3|Signal Gen
+3|Data Seq
+2Digital
+3|Data Seq
+3|Pulser
+3|SCOPE
+1Digital
+2Instruments
+3|Data Seq
+3|Pulser
+2Power
+3|+V
+3|I Source
+3|V Source
+3|Battery
+3|Ground
+3|Logic Switch
+1Analog
+2Instruments
+3|Data Seq
+3|Multimeter
+3|Signal Gen
+2Power
+3|+V
+3|I Source
+3|V Source
+3|Battery
+3|Ground
+3|Logic Switch
+3|NLI Source
+3|NLV Source
+3|F->V Source
+3|I->I Source
+3|I->V Source
+3|V->I Source
+3|V->V Source
+3|VCO
+2SPICE Controls
+3|Plot Var
+3|.IC
+3|.NODESET
+3|Analysis Probe
+1Sources
+2Controlled
+3|F->V Source
+3|I->I Source
+3|I->V Source
+3|V->I Source
+3|V->V Source
+3|VCO
+2Non-Linear
+3|NLI Source
+3|NLV Source
+2Linear
+3|I Source
+3|V Source
+3|Battery
+3|+V
+3|Ground
+1Power Supplies
+2Controlled
+3|F->V Source
+3|I->I Source
+3|I->V Source
+3|V->I Source
+3|V->V Source
+2NonLinear
+3|NLI Source
+3|NLV Source
+2Linear
+3|+V
+3|I Source
+3|V Source
+3|Battery
+3|Ground
+2Digital
+3|+V
+3|V Source
+3|Battery
+3|Ground
+1SPICE Controls
+2Node Set
+3|.NODESET
+2Initial Condition
+3|.IC
+2Variable Access
+3|Plot Var
+1Original Symbols
+2Triac
+3|Triac
+2MOSFETs
+3|P-EMOS Sub3:A
+3|P-EMOS Sub3
+3|N-EMOS Sub3:A
+3|N-EMOS Sub3
+3|N-MOSFET 3T
+3|N-MOSFET 3T:A
+3|N-MOSFET 4T
+3|N-MOSFET 4T:A
+3|P-MOSFET 3T
+3|P-MOSFET 3T:A
+3|P-MOSFET 4T
+3|P-MOSFET 4T:A
+2BJTs
+3|NPN Trans
+3|NPN Trans:A
+3|PNP Trans
+3|PNP Trans:A
+2Gates
+3|2-Input XOR
+3|4-Input NAND
+3|3-Input NAND
+3|2-Input NAND
+3|4-Input NOR
+3|3-Input NOR
+3|2-Input NOR
+3|4-Input AND
+3|3-Input AND
+3|2-Input AND
+3|4-Input OR
+3|3-Input OR
+3|2-Input OR
+1Data Converters
+2A/D
+3|ADC0800
+3|ADC8
+2D/A
+3|DAC8
+1User Defined
+2Macro
+3|DB-9 Macro
+3|Delay
+3|Lock
+3|Macro
+3|Macro 2
+3|ResistorWire
+3|Timer
+3|Counter

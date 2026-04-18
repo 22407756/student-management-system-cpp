@@ -1,0 +1,49 @@
+*XXFMR:Core Transformer Subcircuit Parameters
+*XXFMR:PRIT:|Primary number of turns [0,]|1
+*XXFMR:PRIR:|Primary resistance [0,]|0.1
+*XXFMR:PRIL:|Primary leakage inductance [0,]|1u
+*XXFMR:SECT:|Secondary number of turns [0,]|1
+*XXFMR:SECR:|Secondary resistance [0,]|0.1
+*XXFMR:SECL:|Secondary leakage inductance [0,]|1u
+*XXFMR:AREA:|Cross-sectional area [0,]|1"
+*XXFMR:LEN:|Core length [0,]|1"
+*XXFMR:DOMAIN:|Input smoothing domain [1e-12, 0.5]|0.01"
+*XXFMR:FRAC:|Smoothing fraction/abs switch [T/F]|TRUE"
+*XXFMR:MODE:|Mode switch (1= pwl, 2=hyst) [1,2]|1"
+*XXFMR:LOW:|Input low value|0"
+*XXFMR:HIGH:|Input high value|1"
+*XXFMR:HYST:|Hysteresis [-1,]|0.1"
+*XXFMR:LOWER:|Output lower limit|0"
+*XXFMR:UPPER:|Output upper limit|1"
+*XXFMR:H1:|Magnetic field array value|0"
+*XXFMR:B1:|Flux density array value|0"
+*XXFMR:H2:|Magnetic field array value|0"
+*XXFMR:B2:|Flux density array value|0"
+*XXFMR:H3:|Magnetic field array value|0"
+*XXFMR:B3:|Flux density array value|0"
+*XXFMR:H4:|Magnetic field array value|0"
+*XXFMR:B4:|Flux density array value|0"
+*XXFMR:H5:|Magnetic field array value|0"
+*XXFMR:B5:|Flux density array value|0"
+{PRIT=1 PRIR=0.1 PRIL=1u SECT=1 SECR=0.1 SECL=1u AREA=1 LEN=1 DOMAIN=0.01 FRAC=TRUE MODE=1 LOW=0 HIGH=1 HYST=0.1 LOWER=0 UPPER=1 H1=0 B1=0 H2=1 B2=1 H3=1 B3=1 H4=1 B4=1 H5=1 B5=1}
+*Generic type:xfmr
+.SUBCKT XXFMR 1 2 3 4
+RPRI 1 5 {PRIR}
+LPRI 5 6 {PRIL}
+RSEC 3 7 {SECR}
+LSEC 7 8 {SECL}
+APRI 6 2 9 0 PRILC
+ASEC 8 4 10 0 SECLC
+ACORE 9 10 CORE
+
+.MODEL PRILC lcouple(num_turns={PRIT})
+.MODEL SECLC lcouple(num_turns={SECT})
+.MODEL CORE core(area={AREA} length={LEN} input_domain={DOMAIN}
++ fraction={FRAC} mode={MODE} in_low={LOW} in_high={HIGH}
++ hyst={HYST} out_lower_limit={LOWER} out_upper_limit={UPPER}
++ H_array=[{H1} {H2} {H3} {H4} {H5}]
++ B_array=[{B1} {B2} {B3} {B4} {B5}] )
+.ENDS XXFMR
+
+*Default alias:XXFMR {PRIT=10 SECT=100 FRAC=TRUE} 
+.PARAM ADEFAULT

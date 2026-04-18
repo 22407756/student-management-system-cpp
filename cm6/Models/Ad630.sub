@@ -1,0 +1,19 @@
+* AD630~ linking file
+
+*AD Balanced Modulator/Demodulator pkg:DIP20 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
+.PARAM XAD630 File:AD3.lib
+
+*AD Balanced Modulator/Demodulator pkg:DIP20 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
+.PARAM XAD630A File:AD3.lib
+
+*AD Balanced Modulator/Demodulator pkg:DIP20 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
+.PARAM XAD630B File:AD3.lib
+
+*AD Balanced Modulator/Demodulator pkg:DIP20 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
+.PARAM XAD630J File:AD3.lib
+
+*AD Balanced Modulator/Demodulator pkg:DIP20 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
+.PARAM XAD630K File:AD3.lib
+
+*AD Balanced Modulator/Demodulator pkg:DIP20 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
+.PARAM XAD630S File:AD3.lib

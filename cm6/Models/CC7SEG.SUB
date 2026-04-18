@@ -1,0 +1,73 @@
+*====================
+*Common-Cathode 7-segment Pinout: a,b,c,d,e,f,g,period,common-anode
+*====================
+
+*RED xx mon-anode 7-seg display
+.SUBCKT XREDCC 1 2 3 4 5 6 7 8 9
+Da 1 9 LED1
+Db 2 9 LED1
+Dc 3 9 LED1
+Dd 4 9 LED1
+De 5 9 LED1
+Df 6 9 LED1
+Dg 7 9 LED1
+Dp 8 9 LED1
+.MODEL LED1 D (IS=93.2P RS=42M N=3.73 BV=4 IBV=10U
++ CJO=2.97P VJ=.75 M=.333 TT=4.32U)
+.ENDS XREDCC
+
+*GREEN common-anode 7-seg display
+.SUBCKT XGREENCC 1 2 3 4 5 6 7 8 9
+Da 1 9 LED2
+Db 2 9 LED2
+Dc 3 9 LED2
+Dd 4 9 LED2
+De 5 9 LED2
+Df 6 9 LED2
+Dg 7 9 LED2
+Dp 8 9 LED2
+.MODEL LED2 D (IS=93.1P RS=42M N=4.61 BV=4 IBV=10U
++ CJO=2.97P VJ=.75 M=.333 TT=4.32U)
+.ENDS XGREENCC
+
+*YELLOW common-anode 7-seg display
+.SUBCKT XYELLOWCC 1 2 3 4 5 6 7 8 9
+Da 1 9 LED2
+Db 2 9 LED2
+Dc 3 9 LED2
+Dd 4 9 LED2
+De 5 9 LED2
+Df 6 9 LED2
+Dg 7 9 LED2
+Dp 8 9 LED2
+.MODEL LED2 D (IS=93.1P RS=42M N=4.61 BV=4 IBV=10U
++ CJO=2.97P VJ=.75 M=.333 TT=4.32U)
+.ENDS XYELLOWCC
+
+*AMBER common-anode 7-seg display
+.SUBCKT XAMBERCC 1 2 3 4 5 6 7 8 9
+Da 1 9 LED2
+Db 2 9 LED2
+Dc 3 9 LED2
+Dd 4 9 LED2
+De 5 9 LED2
+Df 6 9 LED2
+Dg 7 9 LED2
+Dp 8 9 LED2
+.MODEL LED2 D (IS=93.1P RS=42M N=4.61 BV=4 IBV=10U
++ CJO=2.97P VJ=.75 M=.333 TT=4.32U)
+.ENDS XAMBERCC
+
+*BLUE common-anode 7-seg display
+.SUBCKT XBLUECC 1 2 3 4 5 6 7 8 9
+Da 1 9 LED3
+Db 2 9 LED3
+Dc 3 9 LED3
+Dd 4 9 LED3
+De 5 9 LED3
+Df 6 9 LED3
+Dg 7 9 LED3
+Dp 8 9 LED3
+.MODEL LED3 D (IS=93.1P RS=42M N=7.47 BV=5 IBV=30U
++ CJO=2.97P VJ=.75 M=.333 TT=4.32U)
+.ENDS XBLUECC

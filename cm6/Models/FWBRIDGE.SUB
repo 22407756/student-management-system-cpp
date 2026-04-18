@@ -1,0 +1,50 @@
+*==============================================
+*FW Bridge pinout: AC1 AC2 V+ V-
+*Copyright (c) 1996 MicroCode Engineering, Inc.
+*All Rights Reserved
+*==============================================
+
+*Default Bridge
+.PARAM XBRIDGE File:Mcediode.lib
+
+*50V 1.8A Si pkg:D-2
+.PARAM X18DB05 File:Mcediode.lib
+
+*100V 1.8A Si pkg:D-2
+.PARAM X18DB1 File:Mcediode.lib
+
+*200V 1.8A Si pkg:D-2
+.PARAM X18DB2 File:Mcediode.lib
+
+*400V 1.8A Si pkg:D-2
+.PARAM X18DB4 File:Mcediode.lib
+
+*600V 1.8A Si pkg:D-2
+.PARAM X18DB6 File:Mcediode.lib
+
+*800V 1.8A Si pkg:D-2
+.PARAM X18DB8 File:Mcediode.lib
+
+*1000V 1.8A Si pkg:D-2
+.PARAM X18DB10 File:Mcediode.lib
+
+*50V 2A Si pkg:D-44
+.PARAM X2KBP005 File:Mcediode.lib
+
+*100V 2A Si pkg:D-44
+.PARAM X2KBP01 File:Mcediode.lib
+
+*200V 2A Si pkg:D-44
+.PARAM X2KBP02 File:Mcediode.lib
+
+*400V 2A Si pkg:D-44
+.PARAM X2KBP04 File:Mcediode.lib
+
+*600V 2A Si pkg:D-44
+.PARAM X2KBP06 File:Mcediode.lib
+
+*800V 2A Si pkg:D-44
+.PARAM X2KBP08 File:Mcediode.lib
+
+*1000V 2A Si pkg:D-44
+.PARAM X2KBP10 File:Mcediode.lib

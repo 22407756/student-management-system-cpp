@@ -1,0 +1,13 @@
+* AD830~ linking file
+
+*AD High Speed, Video Difference Amp pkg:DIP8 1,2,3,4,5,7,8
+.PARAM XAD830 File:Ad3.lib
+
+*AD High Speed, Video Difference Amp pkg:DIP8 1,2,3,4,5,7,8
+.PARAM XAD830A File:Ad3.lib
+
+*AD High Speed, Video Difference Amp pkg:DIP8 1,2,3,4,5,7,8
+.PARAM XAD830J File:Ad3.lib
+
+*AD High Speed, Video Difference Amp pkg:DIP8 1,2,3,4,5,7,8
+.PARAM XAD830S File:Ad3.lib

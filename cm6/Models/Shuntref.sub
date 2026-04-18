@@ -1,0 +1,4 @@
+* ShuntRef~ linking file
+
+*AD 1.2V Micropower, Precision Shunt Reference pkg:SOT-23 1,2
+.PARAM XAD1580 File:Ad3.lib

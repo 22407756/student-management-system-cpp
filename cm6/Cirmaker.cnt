@@ -1,0 +1,540 @@
+:Base Cirmaker.HLP
+:Title CircuitMaker Help
+1 Chapter 1: Welcome to CircuitMaker
+2 Introduction
+3 Introduction=Introduction
+3 Required User Background=Required_User_Background
+3 Required Hardware/Software=Required_Hardware_Software
+2 Installing CircuitMaker
+3 Installing CircuitMaker=Installing_CircuitMaker
+3 Installing the Hardware (HW) Keys=Installing_the_Hardware_HW_Keys
+3 Updating from a Previous Version
+4 Updating from a Previous Version=Updating_from_a_Previous_Version
+4 Updating 32-Bit Macro Libraries=Updating_32_Bit_Macro_Libraries
+4 Updating 16-Bit Macro Libraries=Updating_16_Bit_Macro_Libraries
+4 Updating Pre-5.0 Digital Circuits for Analog Simulation=Updating_Pre_5_0_Digital_Circuits_for_Analog_Simulation
+3 Multi-User (Project) Installations
+4 Multi-User (Project) Installations=Multi_User_Project_Installations
+4 Setting Up Multiple Projects=Setting_Up_Multiple_Projects
+4 Accessing a Project=Accessing_a_Project
+2 Technical Support
+3 Technical Support=Technical_Support
+2 About this Manual
+3 About this Manual=About_this_Manual
+3 Manual Conventions=Manual_Conventions
+3 Using On-line Help=Using_On_line_Help
+3 Where to Go from Here=Where_to_Go_from_Here
+1 Chapter 2: Getting Started
+2 CircuitMaker Basics
+3 CircuitMaker Basics=CircuitMaker_Basics
+3 Starting CircuitMaker=Starting_CircuitMaker
+3 CircuitMaker Workspace=CircuitMaker_Workspace
+3 Connectivity=Connectivity
+3 About CircuitMaker Windows=About_CircuitMaker_Windows
+3 Anatomy of a Schematic Drawing=Anatomy_of_a_Schematic_Drawing
+3 CircuitMaker Conventions=CircuitMaker_Conventions
+3 CircuitMaker Files=CircuitMaker_Files
+2 Accessing Tools and Features
+3 Accessing Tools and Features=Accessing_Tools_and_Features
+3 Task Overview=Task_Overview
+3 Using the Toolbar=Using_the_Toolbar
+3 Using the Mouse=Using_the_Mouse
+3 HotKeys=HotKeys_Getting_Started
+3 Shortcut Keys=Shortcut_Keys
+2 CircuitMaker Preferences
+3 CircuitMaker Preferences=CircuitMaker_Preferences
+3 Changing Preferences=Changing_Preferences
+3 Restoring Factory Defaults=Restoring_Factory_Defaults
+2 Basic .CKT File Management
+3 Basic .CKT File Management=Basic_CKT_File_Management
+3 Starting, Saving & Closing a .CKT File=Starting_Saving_Closing_a_CKT_File
+3 Opening and Re-Opening a .CKT File=Opening_and_Re_Opening_a_CKT_File
+3 Reverting to Previously Saved File=Reverting_to_Previously_Saved_File
+1 Chapter 3: Tutorials
+2 Tutorials=Tutorials
+2 Tutorial 1: Drawing a Schematic
+3 Tutorial 1: Drawing a Schematic=Tutorial_1_Drawing_a_Schematic
+3 Using the Device Selection Dialog Box=Using_the_Device_Selection_Dialog_Box
+3 Selecting a Transistor=Selecting_a_Transistor
+3 Selecting the Resistors=Selecting_the_Resistors
+3 Selecting +V and Ground Devices=Selecting_V_and_Ground_Devices
+3 Changing Resistor/Transistor Label-Values=Changing_Resistor_Transistor_Label_Values
+3 Wiring the Circuit Together=Wiring_the_Circuit_Together
+2 Tutorial 2: Simulating a Digital Circuit
+3 Tutorial 2: Simulating a Digital Circuit=Tutorial_2_Simulating_a_Digital_Circuit
+2 Tutorial 3: Analog Analysis
+3 Tutorial 3: Analog Analysis=Tutorial_3_Analog_Analysis
+3 Simple Circuit Analysis=Simple_Circuit_Analysis
+3 Creating a Simple RC Circuit=Creating_a_Simple_RC_Circuit
+3 Simulating a Simple AC Circuit=Simulating_a_Simple_AC_Circuit
+2 Tutorial 4: More Circuit Simulation
+3 Tutorial 4: More Circuit Simulation=Tutorial_4_More_Circuit_Simulation
+3 Setting Up the Analysis=Setting_Up_the_Analysis
+3 Running the Simulation=Running_the_Simulation_tutorial
+3 Mixed-Mode Simulation Example=Mixed_Mode_Simulation_Example
+1 Chapter 4: Drawing and Editing Schematics
+2 Drawing and Editing Schematics=Drawing_and_Editing_Schematics
+2 Drawing & Editing Tools
+3 Drawing & Editing Tools=Drawing_Editing_Tools
+3 Arrow Tool=Arrow_Tool
+3 Wire Tool=Wire_Tool
+3 Text Tool=Text_Tool
+3 Delete Tool=Delete_Tool
+3 Zoom Tool=Zoom_Tool
+3 Rotate 90 Button=Rotate_90_Button
+3 Mirror Button=Mirror_Button
+2 Grid, Title Block and Borders
+3 Grid, Title Block and Borders=Grid_Title_Block_and_Borders
+3 Grid=Grid
+3 Title Block=Title_Block
+3 Borders=Borders
+2 Listing and Selecting Devices
+3 Listing and Selecting Devices=Listing_and_Selecting_Devices
+3 The Graphical Parts Browser=The_Graphical_Parts_Browser
+3 HotKeys=HotKeys
+3 Searching for Devices=Searching_for_Devices
+2 Placing Devices
+3 Placing Devices=Placing_Devices
+3 Selecting Devices=Selecting_Devices
+3 Nudging Devices=Nudging_Devices
+2 Wiring the Circuit
+3 Wiring the Circuit=Wiring_the_Circuit
+3 The SmartWires Advantage=The_SmartWires_Advantage
+3 Auto Routing=Auto_Routing
+3 Manual Routing=Manual_Routing
+3 Quick Connect Wiring=Quick_Connect_Wiring
+3 Extending, Joining, and Cutting Wires=Extending_Joining_and_Cutting_Wires
+3 Moving Devices with Connected Wires=Moving_Devices_with_Connected_Wires
+2 Working with Bus Wires
+3 Working with Bus Wires=Working_with_Bus_Wires
+3 Working with Bus Connection Wires=Working_with_Bus_Connection_Wires
+2 "Wiring" with Connectors
+3 "Wiring" with Connectors=_Wiring_with_Connectors
+3 Input and Output Connectors=Input_and_Output_Connectors
+3 Terminal Device Power Connections=Terminal_Device_Power_Connections
+2 Labeling the Circuit
+3 Labeling the Circuit=Labeling_the_Circuit
+3 Using the Text Tool to Label=Using_the_Text_Tool_to_Label
+3 Changing Device Labels=Changing_Device_Labels
+2 Editing Devices
+3 Editing Devices=Editing_Devices
+3 Device=Device
+3 Label-Value=Label_Value
+3 Designation=Designation
+3 Description=Description
+3 Package=Package
+3 Auto Designation Prefix=Auto_Designation_Prefix
+3 Spice Prefix Character(s)=Spice_Prefix_Character_s_
+3 Analog=Analog
+3 Digital=Digital
+3 Parameters=Parameters
+3 Bus Data=Bus_Data
+3 Spice Data=Spice_Data
+3 Example of Using SPICE Data=Example_of_Using_SPICE_Data
+3 Exclude From PCB=Exclude_From_PCB
+3 Exclude From Bill of Materials=Exclude_From_Bill_of_Materials
+3 Pins=Pins
+3 Faults=Faults
+2 Printing and Exporting Circuits
+3 Printing and Exporting Circuits=Printing_and_Exporting_Circuits
+3 Printing Circuits=Printing_Circuits
+3 Exporting Circuits as Graphics=Exporting_Circuits_as_Graphics
+1 Chapter 5: Digital Logic Simulation
+2 Digital Logic Simulation=Digital_Logic_Simulation
+2 CircuitMaker’s Simulation Modes=CircuitMaker_s_Simulation_Modes
+2 Devices and Simulation=Devices_and_Simulation
+2 Using the Digital Logic Simulator=Using_the_Digital_Logic_Simulator
+2 Digital Logic Simulation Tools
+3 Digital Logic Simulation Tools=Digital_Logic_Simulation_Tools
+3 Digital/Analog Button=Digital_Analog_Button_digital
+3 Reset Button=Reset_Button_digital
+3 Step Button=Step_Button_digital
+3 Run/Stop Button=Run_Stop_Button_digital
+3 Probe Tool=Probe_Tool_digital
+3 Trace Button=Trace_Button_digital
+3 Waveforms Button=Waveforms_Button_digital
+3 Propagation Delays=Propagation_Delays
+3 Digital Waveforms=Digital_Waveforms
+2 Digital Options
+3 Digital Options=Digital_Options
+3 Setting Breakpoints in a Circuit=Setting_Breakpoints_in_a_Circuit
+2 Digital Instruments
+3 Digital Instruments=Digital_Instruments
+3 Pulser=Pulser
+3 Data Sequencer=Data_Sequencer
+3 Pattern Editor=Pattern_Editor
+1 Chapter 6: Analog/Mixed-Signal Simulation
+2 Analog/Mixed-Signal Simulation=Analog_Mixed_Signal_Simulation
+2 CircuitMaker’s Simulation Modes=CircuitMaker_s_Simulation_Modes_analog
+2 Devices and Simulation=Devices_and_Simulation_analog
+2 Overview of Analog Simulation
+3 Overview of Analog Simulation=Overview_of_Analog_Simulation
+3 Before You Use the Analog Simulator=Before_You_Use_the_Analog_Simulator
+3 Setting Up Analog Analyses=Setting_Up_Analog_Analyses
+3 Selecting Analog Simulation Mode=Selecting_Analog_Simulation_Mode
+2 Analog Simulation Tools
+3 Analog Simulation Tools=Analog_Simulation_Tools
+3 Digital/Analog Button=Digital_Analog_Button_analog
+3 Reset Button=Reset_Button_analog
+3 Run/Stop Button=Run_Stop_Button_analog
+3 Probe Tool=Probe_Tool_analog
+3 Waveforms Button=Waveforms_Button_analog
+2 Vcc and Ground
+3 Vcc and Ground=Vcc_and_Ground
+2 Working with Test Points
+3 Working with Test Points=Working_with_Test_Points
+3 Test Point Types=Test_Point_Types
+3 Default Test Points=Default_Test_Points
+3 Exclusive Test Points=Exclusive_Test_Points
+3 Run-Time Test Points=Run_Time_Test_Points
+2 Running the Simulation
+3 Running the Simulation=Running_the_Simulation
+2 Using the Analysis Windows
+3 Using the Analysis Windows=Using_the_Analysis_Windows
+3 Displaying Waveforms=Displaying_Waveforms
+3 Scaling Waveforms=Scaling_Waveforms
+3 Offsetting Waveforms=Offsetting_Waveforms
+3 Using Measurement Cursors=Using_Measurement_Cursors
+3 Setup Button=Setup_Button
+3 Reset Button=Reset_Button
+2 Setting Up Analog Analyses
+3 Setting Up the Analog Analyses=Setting_Up_the_Analog_Analyses
+3 Always Set Defaults=Always_Set_Defaults
+3 DC Analysis (DC Sweep)=DC_Analysis_DC_Sweep_
+3 AC Analysis (AC Sweep)=AC_Analysis_AC_Sweep_
+3 DC Operating Point Analysis=DC_Operating_Point_Analysis
+3 Transient Analysis=Transient_Analysis
+3 Parameter Sweep=Parameter_Sweep
+3 Fourier Analysis=Fourier_Analysis
+3 Transfer Function Analysis=Transfer_Function_Analysis
+3 Noise Analysis=Noise_Analysis
+3 Temperature Sweep=Temperature_Sweep
+3 Monte Carlo Analysis=Monte_Carlo_Analysis
+3 Impedance Plot Analysis=Impedance_Plot_Analysis
+2 Using XSpice for Windows
+3 Using XSpice for Windows=Using_XSpice_for_Windows
+3 .NET and .RAW File Output=_NET_and_RAW_File_Output
+3 Warning Messages vs. Error Messages=Warning_Messages_vs_Error_Messages
+2 Setting Up Analog/SPICE Variables
+3 Setting Up Analog/SPICE Variables=Setting_Up_Analog_SPICE_Variables
+3 ASCIIOUTPUT Check Box=ASCIIOUTPUT_Check_Box
+3 DVCC, DVDD and DGND=DVCC_DVDD_and_DGND
+3 Integration Method=Integration_Method
+3 Analysis Data Saved in .RAW File=Analysis_Data_Saved_in_RAW_File
+2 Analog/Mixed-Signal Instruments
+3 Analog/Mixed-Signal Instruments=Analog_Mixed_Signal_Instruments
+3 Multimeter
+4 Multimeter=Multimeter
+3 Multifunction Signal Generator
+4 Multifunction Signal Generator=Multifunction_Signal_Generator
+4 Accessing the Signal Generator Editor=Accessing_the_Signal_Generator_Editor
+4 Editing Sine Wave Data=Editing_Sine_Wave_Data
+4 Editing AM Signal Data=Editing_AM_Signal_Data
+4 Editing FM Signal Data=Editing_FM_Signal_Data
+4 Editing Exponential Data=Editing_Exponential_Data
+4 Editing Pulse Data=Editing_Pulse_Data
+4 Editing Piece-Wise Data=Editing_Piece_Wise_Data
+4 Data Sequencer=Data_Sequencer_analog_
+1 Chapter 7: Exporting Files
+2 Exporting Files=Exporting_Files
+2 Bill of Materials
+3 Bill of Materials=Bill_of_Materials
+3 Single Item Per Line=Single_Item_Per_Line
+3 Multiple Items Per Line=Multiple_Items_Per_Line
+3 Saving, Displaying, and Printing=Saving_Displaying_and_Printing_the_Bill_of_Materials
+3 Including Attributes=Including_Attributes
+3 Creating an Attribute File=Creating_an_Attribute_File
+2 Setting Up Export Options
+3 Setting Up Export Options=Setting_Up_Export_Options
+2 Exporting Waveforms as Graphics
+3 Exporting Waveforms as Graphics=Exporting_Waveforms_as_Graphics
+2 Exporting Circuits as Graphics
+3 Exporting Circuits as Graphics=Exporting_Circuits_as_Graphics
+2 Exporting a SPICE Netlist
+3 Exporting a SPICE Netlist=Exporting_a_SPICE_Netlist
+2 Exporting a SPICE Subcircuit
+3 Exporting a SPICE Subcircuit=Exporting_a_SPICE_Subcircuit
+2 Exporting a PCB Netlist
+3 Exporting a PCB Netlist=Exporting_a_PCB_Netlist
+3 What is a Net?=What_is_a_Net_
+3 What is a Netlist?=What_is_a_Netlist_
+3 PCB Netlist Requirements=PCB_Netlist_Requirements
+3 Exporting to Popular PCB Netlist Formats=Exporting_to_Popular_PCB_Netlist_Formats
+3 TraxMaker PCB Netlist Format=TraxMaker_PCB_Netlist_Format
+2 CircuitMaker to TraxMaker
+3 CircuitMaker to TraxMaker=CircuitMaker_to_TraxMaker
+1 Chapter 8: Fault Simulation
+2 Fault Simulation=Fault_Simulation
+2 Device Faults
+3 Device Faults=Device_Faults
+3 Pin(s) Stuck High=Pin_s_Stuck_High
+3 Pin(s) Stuck Low=Pin_s_Stuck_Low
+3 Pin(s) Open=Pin_s_Open
+3 Pins Shorted Together=Pins_Shorted_Together
+3 Wrong Value=Wrong_Value
+3 User Defined=User_Defined
+2 Adding Device Faults
+3 Adding Device Faults=Adding_Device_Faults
+3 Enable Device Faults=Enable_Device_Faults
+3 Fault Label-Value=Fault_Label_Value
+3 Faults and Device Pins=Faults_and_Device_Pins
+3 Internal High/Low Check Boxes=Internal_High_Low_Check_Boxes
+3 Hint Message=Hint_Message
+3 Fault Password=Fault_Password
+2 Using the Access Faults Dialog Box
+3 Using the Access Faults Dialog Box=Using_the_Access_Faults_Dialog_Box
+2 Managing Circuit Faults
+3 Managing Circuit Faults=Managing_Circuit_Faults
+3 Disable Circuit Options=Disable_Circuit_Options
+3 Hints and Replacements=Hints_and_Replacements
+3 Circuit Default Values=Circuit_Default_Values
+3 Fault Lock Password=Fault_Lock_Password
+3 Creating Black Box Macros=Creating_Black_Box_Macros
+3 Fault Example=Fault_Example
+1 Chapter 9: File Menu
+2 File Menu=File_Menu
+2 New=New
+2 Open=Open
+2 Merge=Merge
+2 Close=Close
+2 Save=Save
+2 Save As=Save_As
+2 Revert=Revert
+2 Import > Simulate SPICE Netlist=Import_Simulate_SPICE_Netlist
+2 Export >=Export
+2 Bill of Materials=Bill_of_Materials_File_Menu
+2 Print Setup=Print_Setup
+2 Print Circuit=Print_Circuit
+2 Print Waveforms=Print_Waveforms
+2 Preferences=Preferences
+2 Exit=Exit
+1 Chapter 10: Edit Menu
+2 Edit Menu=Edit_Menu
+2 Undo=Undo
+2 Cut=Cut
+2 Copy=Copy
+2 Paste=Paste
+2 Move=Move
+2 Delete Items=Delete_Items
+2 Duplicate=Duplicate
+2 Copy to Clipboard > Circuit=Copy_Circuit_to_Clipboard
+2 Copy to Clipboard > Waveforms=Copy_Waveforms_to_Clipboard
+2 Select All=Select_All
+2 Find and Select=Find_and_Select
+2 Rotate 90=Rotate_90
+2 Mirror=Mirror
+2 Straighten Wires=Straighten_Wires
+2 Place Labels=Place_Labels
+2 Set Prop Delays=Set_Prop_Delays
+2 Set Designations=Set_Designations
+2 Group Items=Group_Items
+2 Font=Font
+2 Edit Items >
+3 Edit Items=Edit_Items
+3 Edit Bus Connection=Edit_Bus_Connection
+3 Edit Bus Wire Number=Edit_Bus_Wire_Number
+3 Edit Device Data=Edit_Device_Data
+3 Edit Digital Params=Edit_Digital_Params
+3 Edit Run-Time Test Point=Edit_Run_Time_Test_Point
+3 Edit/Select Spice Model=Edit_Select_Spice_Model
+3 Edit PROM/RAM=Edit_PROM_RAM
+3 Edit Pulser=Edit_Pulser
+3 Edit Multimeter=Edit_Multimeter
+3 Edit Input/Output=Edit_Input_Output
+3 Edit Data Sequencer=Edit_Data_Sequencer
+3 Edit Signal Generator=Edit_Signal_Generator
+3 Edit Scope/Probe Name=Edit_Scope_Probe_Name
+1 Chapter 11: Macros Menu
+2 Macros Menu=Macros_Menu
+2 New Macro=New_Macro
+2 Edit Macro=Edit_Macro
+2 Save Macro=Save_Macro
+2 Expand Macro=Expand_Macro
+2 Macro Lock=Macro_Lock
+2 Macro Utilities=Macro_Utilities
+2 Macro Copier=Macro_Copier
+2 Save ASCII Library=Save_ASCII_Library
+2 Convert ASCII Library=Convert_ASCII_Library
+2 Update Search List=Update_Search_List
+1 Chapter 12: Options Menu
+2 Options Menu=Options_Menu
+2 Auto Repeat=Auto_Repeat
+2 Auto Refresh=Auto_Refresh
+2 Quick Connect=Quick_Connect
+2 Device Designations=Device_Designations
+2 Arrow/Wire=Arrow_Wire
+2 Cursor Tools >=Cursor_Tools
+2 Show Pin Dots=Show_Pin_Dots
+2 Show Bus Labels=Show_Bus_Labels
+2 Show Page Breaks=Show_Page_Breaks
+2 Show Node Numbers=Show_Node_Numbers
+2 Show Prop Delays=Show_Prop_Delays
+2 Device Display Data=Device_Display_Data
+2 Circuit Display Data=Circuit_Display_Data
+2 Grid Setup=Grid_Setup
+2 Title Block Setup=Title_Block_Setup
+2 Border Setup=Border_Setup
+1 Chapter 13: View & Window Menus
+2 View & Window Menus=View_Window_Menus
+2 The View Menu
+3 Toolbar=Toolbar
+3 Colors=Colors
+3 Display Scale=Display_Scale
+3 Normal Size/Position=Normal_Size_Position
+3 Fit Circuit to Window=Fit_Circuit_to_Window
+3 Refresh Screen=Refresh_Screen
+2 The Window Menu
+3 Cascade Windows=Cascade_Windows
+3 Tile Windows=Tile_Windows
+3 Windows=Windows
+1 Chapter 14: Simulation Menu
+2 Simulation Menu=Simulation_Menu
+2 Digital/Analog Mode=Digital_Analog_Mode
+2 Analyses Setup=Analyses_Setup
+2 Digital Options=Digital_Options_Simulation_Menu_
+2 Check Pin Connections=Check_Pin_Connections
+2 Reset=Reset
+2 Step=Step
+2 Run=Run
+2 Trace=Trace
+2 Display Waveforms=Display_Waveforms
+2 Scope Probe=Scope_Probe
+2 Display Variable Names=Display_Variable_Names
+1 Chapter 15: SPICE: Beyond the Basics
+2 SPICE: Beyond the Basics=SPICE_Beyond_the_Basics
+2 Troubleshooting SPICE Convergence
+3 Troubleshooting SPICE Convergence=Troubleshooting_SPICE_Convergence
+3 Solving Operating Point Analysis Failures=Solving_Operating_Point_Analysis_Failures
+3 Solving DC Analysis Failures=Solving_DC_Analysis_Failures
+3 Solving Transient Analysis Failures=Solving_Transient_Analysis_Failures
+2 SPICE Option Variables
+3 SPICE Option Variables=SPICE_Option_Variables
+2 SPICE's Elementary Devices
+3 SPICE’s Elementary Devices=SPICE_s_Elementary_Devices
+3 Resistors=Resistors
+3 Semiconductor Resistors=Semiconductor_Resistors
+3 Capacitors=Capacitors
+3 Semiconductor Capacitors=Semiconductor_Capacitors
+3 Inductors=Inductors
+3 Coupled (Mutual) Inductors=Coupled_Mutual_Inductors
+3 Voltage/Current Controlled Switches=Voltage_Current_Controlled_Switches
+3 Independent Sources=Independent_Sources
+3 Linear Voltage-Controlled Current Sources=Linear_Voltage_Controlled_Current_Sources
+3 Linear Voltage-Controlled Voltage Sources=Linear_Voltage_Controlled_Voltage_Sources
+3 Linear Current-Controlled Current Sources=Linear_Current_Controlled_Current_Sources
+3 Linear Current-Controlled Voltage Sources=Linear_Current_Controlled_Voltage_Sources
+3 Nonlinear Dependent Sources=Nonlinear_Dependent_Sources
+3 Lossless Transmission Lines=Lossless_Transmission_Lines
+3 Lossy Transmission Lines=Lossy_Transmission_Lines
+3 Uniform Distributed RC Lines (Lossy)=Uniform_Distributed_RC_Lines_Lossy_
+3 Junction Diodes=Junction_Diodes
+3 Bipolar Junction Transistors (BJTs)=Bipolar_Junction_Transistors_BJTs_
+3 Junction Field-Effect Transistors (JFETs)=Junction_Field_Effect_Transistors_JFETs_
+3 MOSFETs=MOSFETs
+3 MESFETs (GaAsFETs)=MESFETs_GaAsFETs_
+3 Subcircuits=Subcircuits
+3 SimCode Devices=SimCodeTM_Devices
+2 Initial Conditions
+3 .NODESET Statement=_NODESET_Statement
+3 .IC Statement=_IC_Statement
+2 Suggested Reading
+3 Suggested Reading=Suggested_Reading
+1 Chapter 16: Creating New Devices
+2 Creating New Devices=Creating_New_Devices
+2 Creating Device Symbols
+3 Creating Device Symbols=Creating_Device_Symbols
+3 Using Symbol Editor Display Controls=Using_Symbol_Editor_Display_Controls
+3 Drawing a Symbol with the Mouse=Drawing_a_Symbol_with_the_Mouse
+3 Selecting Shapes=Selecting_Shapes
+3 Adding an Existing Shape=Adding_an_Existing_Shape
+3 Importing a Metafile Device=Importing_a_Metafile_Device
+3 Adding DIP, LCC, and QFP Packages=Adding_DIP_LCC_and_QFP_Packages
+3 Editing Pin Information=Editing_Pin_Information
+3 Element List and Edit Buffer=Element_List_and_Edit_Buffer
+3 Element Definitions=Element_Definitions
+3 Tutorial: Creating a Device Symbol=Tutorial_Creating_a_Device_Symbol
+3 Expanding an Existing Macro Device Symbol=Expanding_an_Existing_Macro_Device
+2 Creating Macro Devices with Internal Circuitry
+3 Creating Macro Devices with Internal Circuitry=Creating_Macro_Devices_with_Internal_Circuitry
+2 Working with SPICE Models
+3 Working with SPICE Models=Working_with_SPICE_Models
+3 Editing SPICE Models with a Text Editor=Editing_SPICE_Models_with_a_Text_Editor
+3 Editing SPICE Models in CircuitMaker=Editing_SPICE_Models_in_CircuitMaker
+3 Adding New Models to an Existing Symbol=Adding_New_Models_to_an_Existing_Symbol
+3 Adding Existing Models to New Macro Symbol=Adding_Existing_Models_to_New_Macro_Symbol
+3 Editing SPICE Subcircuits=Editing_SPICE_Subcircuits
+3 Adding New Subcircuits to an Existing Symbol=Adding_New_Subcircuits_to_an_Existing_Symbol
+3 Adding Existing Subcircuits to New Macro Symbol=Adding_Existing_Subcircuits_to_New_Macro_Symbol
+3 Model and Subcircuit Linking Files=Model_and_Subcircuit_Linking_Files
+2 Creating New SPICE Models with Parameter Passing
+3 Creating New SPICE Models with Parameter Passing=Creating_New_SPICE_Models_with_Parameter_Passing
+2 Editing Digital Model Parameters
+3 Editing Digital Model Parameters=Editing_Digital_Model_Parameters
+1 Chapter 17: Digital SimCode
+2 Digital SimCode=Digital_SimCode
+2 Creating New SimCode Devices
+3 Creating New SimCode Devices=Creating_New_SimCode_Devices
+3 The 74LS74 Example=The_74LS74_Example
+3 Editing Device Data for SimCode Devices=Editing_Device_Data_for_SimCode_Devices
+2 Simcode Language Definition
+3 SimCode Language Definition=SimCode_Language_Definition
+3 Data Types=Data_Types
+3 Device Setup Functions=Device_Setup_Functions
+3 Device Test Functions=Device_Test_Functions
+3 Output Pin Functions=Output_Pin_Functions
+3 Expression Operations=Expression_Operations
+3 Expression Functions=Expression_Functions
+3 Program Control=Program_Control
+3 Output Text=Output_Text
+3 Debug=Debug
+2 Simcode Language Syntax
+3 SimCode Language Syntax=SimCode_Language_Syntax
+3 # xxxx source=_xxxx_source
+3 CHANGE_TIME=CHANGE_TIME
+3 CHANGED_xx=CHANGED_xx
+3 DELAY=DELAY
+3 DRIVE=DRIVE
+3 EVENT=EVENT
+3 EXIT=EXIT_SimCode
+3 EXT_TABLE=EXT_TABLE
+3 FREQUENCY=FREQUENCY_FMAX_
+3 GOSUB=GOSUB
+3 GOTO=GOTO
+3 IF ... THEN=IF_THEN
+3 INPUTS=INPUTS
+3 INSTANCE=INSTANCE
+3 INTEGERS=INTEGERS
+3 IO_PAIRS=IO_PAIRS
+3 LEVEL=LEVEL
+3 LOAD=LOAD
+3 MATH FUNCTIONS=MATH_FUNCTIONS
+3 MESSAGE=MESSAGE
+3 MIN_TYP_MAX=MIN_TYP_MAX
+3 NO_CHANGE=NO_CHANGE
+3 NUMBER=NUMBER
+3 OPERATORS=OPERATORS
+3 OUTPUTS=OUTPUTS
+3 PARAM_SET=PARAM_SET
+3 PROMPT=PROMPT
+3 PWL_TABLE=PWL_TABLE
+3 PWR_GND_PINS=PWR_GND_PINS
+3 READ_DATA=READ_DATA
+3 REALS=REALS
+3 RECOVER=RECOVER
+3 RETURN=RETURN
+3 SELECT_VALUE=SELECT_VALUE
+3 SETUP_HOLD=SETUP_HOLD
+3 STATE=STATE
+3 STATE_BIT=STATE_BIT
+3 STEP_OFF=STEP_OFF
+3 STEP_ON=STEP_ON
+3 STRENGTH=STRENGTH
+3 SUPPLY_MIN_MAX=SUPPLY_MIN_MAX
+3 TABLE=TABLE
+3 VALUE=VALUE
+3 VIL_VIH_PERCENT=VIL_VIH_PERCENT
+3 VIL_VIH_VALUE=VIL_VIH_VALUE
+3 VOL_VOH_MIN=VOL_VOH_MIN
+3 WHILE ... DO=WHILE_DO
+3 WIDTH=WIDTH
+3 WIDTH_TIME=WIDTH_TIME

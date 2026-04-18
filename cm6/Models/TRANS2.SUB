@@ -1,0 +1,66 @@
+
+*1:10 transformer: +Pri,-Pri,+Sec,-Sec
+.SUBCKT X1to10 1 2 3 4
+VISRC 9 4 DC 0V
+FCTRL 6 2 VISRC 10
+EVCVS 8 9 5 2 10
+RPRI  1 7 .1
+RSEC  8 3 .1
+LLEAK 7 5 1uH
+LMAGNET 6 5 1uH
+.ENDS X1to10
+
+*1:5 transformer: +Pri,-Pri,+Sec,-Sec
+.SUBCKT X1to5 1 2 3 4
+VISRC 9 4 DC 0V
+FCTRL 6 2 VISRC 5
+EVCVS 8 9 5 2 5
+RPRI  1 7 .1
+RSEC  8 3 .1
+LLEAK 7 5 1uH
+LMAGNET 6 5 1uH
+.ENDS X1to5
+
+*1:2 transformer: +Pri,-Pri,+Sec,-Sec
+.SUBCKT X1to2 1 2 3 4
+VISRC 9 4 DC 0V
+FCTRL 6 2 VISRC 2
+EVCVS 8 9 5 2 2
+RPRI  1 7 .1
+RSEC  8 3 .1
+LLEAK 7 5 1uH
+LMAGNET 6 5 1uH
+.ENDS X1to2
+
+*1:1 transformer: +Pri,-Pri,+Sec,-Sec
+.SUBCKT X1to1 1 2 3 4
+VISRC 9 4 DC 0V
+FCTRL 6 2 VISRC 1
+EVCVS 8 9 5 2 1
+RPRI  1 7 .1
+RSEC  8 3 .1
+LLEAK 7 5 1uH
+LMAGNET 6 5 1uH
+.ENDS X1to1
+
+*5:1 transformer: +Pri,-Pri,+Sec,-Sec
+.SUBCKT X5to1 1 2 3 4
+VISRC 9 4 DC 0V
+FCTRL 6 2 VISRC .2
+EVCVS 8 9 5 2 .2
+RPRI  1 7 .1
+RSEC  8 3 .1
+LLEAK 7 5 1uH
+LMAGNET 6 5 1uH
+.ENDS X5to1
+
+*10:1 transformer: +Pri,-Pri,+Sec,-Sec
+.SUBCKT X10to1 1 2 3 4
+VISRC 9 4 DC 0V
+FCTRL 6 2 VISRC .1
+EVCVS 8 9 5 2 .1
+RPRI  1 7 .1
+RSEC  8 3 .1
+LLEAK 7 5 1uH
+LMAGNET 6 5 1uH
+.ENDS X10to1

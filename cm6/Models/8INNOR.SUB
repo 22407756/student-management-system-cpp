@@ -1,0 +1,7 @@
+*4078 MCE Nodes: A,B,C,D,E,F,G,H,Y
+*MCE mixed-mode 8-input NOR gate pkg:DIP14 2,3,4,5,9,10,11,12,13
+.SUBCKT X4078 1 2 3 4 5 6 7 8 9
+BNLVs1 10 0 V=~(V(1)|v(2)|v(3)|v(4)|v(6)|v(7)|v(8))
+R1 10 9 1
+C1 9 0 .004uF IC=0V
+.ENDS X4078

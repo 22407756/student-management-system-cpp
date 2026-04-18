@@ -1,0 +1,27 @@
+*==============================================
+*Triac pinout: MT2 G MT1
+*Copyright (c) 1997 MicroCode Engineering, Inc.
+*All Rights Reserved
+*==============================================
+
+*==============================================
+*MicroCode Engineering
+
+*400V 15A pkg:TO-220 2,3,1
+.PARAM XMAC15A6 File:Mcetriac.lib
+
+*600V 15A pkg:TO-220 2,3,1
+.PARAM XMAC15A8 File:Mcetriac.lib
+
+*200V 10A pkg:TO-220 2,3,1
+.PARAM XMAC210-4 File:Mcetriac.lib
+
+*400V 10A pkg:TO-220 2,3,1
+.PARAM XMAC210-6 File:Mcetriac.lib
+
+*600V 10A pkg:TO-220 2,3,1
+.PARAM XMAC210-8 File:Mcetriac.lib
+
+*800V 10A pkg:TO-220 2,3,1
+.PARAM XMAC210-10 File:Mcetriac.lib
+
